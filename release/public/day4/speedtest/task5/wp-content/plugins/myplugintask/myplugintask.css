@@ -1,0 +1,54 @@
+#myplugintask {
+    text-align: center;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#myplugintask i {
+    padding: 30px;
+    margin: 20px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px rgba(0,0,0,0.1);
+    transition: all 1s;
+    height: 80px;
+    width: 80px;
+}
+
+#myplugintask i:hover {
+    font-size: 120%;
+}
+
+.fa-facebook-f {
+    color: #3d5998;
+    background-color: white;
+}
+.fa-facebook-f:hover {
+    color: white;
+    background-color: #3d5998;
+}
+.fa-pinterest {
+    color: #e50122;
+    background-color: white;
+}
+.fa-pinterest:hover {
+    background-color: #e50122;
+    color: white;
+}
+.fa-twitter {
+    color: #54acec;
+    background-color: white;
+}
+.fa-twitter:hover {
+    background-color: #54acec;
+    color: white;
+}
+.fa-tumblr {
+    color: #314258;
+    background-color: white;
+}
+.fa-tumblr:hover {
+    background-color: #314258;
+    color: white;
+}

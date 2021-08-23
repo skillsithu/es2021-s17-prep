@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "http://localhost/day3/hu_front_end_module/static/css/main.29bfbfbf.chunk.css",
+    "main.js": "http://localhost/day3/hu_front_end_module/static/js/main.2df9306a.chunk.js",
+    "main.js.map": "http://localhost/day3/hu_front_end_module/static/js/main.2df9306a.chunk.js.map",
+    "runtime-main.js": "http://localhost/day3/hu_front_end_module/static/js/runtime-main.d2341bf1.js",
+    "runtime-main.js.map": "http://localhost/day3/hu_front_end_module/static/js/runtime-main.d2341bf1.js.map",
+    "static/js/2.18251917.chunk.js": "http://localhost/day3/hu_front_end_module/static/js/2.18251917.chunk.js",
+    "static/js/2.18251917.chunk.js.map": "http://localhost/day3/hu_front_end_module/static/js/2.18251917.chunk.js.map",
+    "static/js/3.fcbc6c95.chunk.js": "http://localhost/day3/hu_front_end_module/static/js/3.fcbc6c95.chunk.js",
+    "static/js/3.fcbc6c95.chunk.js.map": "http://localhost/day3/hu_front_end_module/static/js/3.fcbc6c95.chunk.js.map",
+    "index.html": "http://localhost/day3/hu_front_end_module/index.html",
+    "static/css/main.29bfbfbf.chunk.css.map": "http://localhost/day3/hu_front_end_module/static/css/main.29bfbfbf.chunk.css.map",
+    "static/js/2.18251917.chunk.js.LICENSE.txt": "http://localhost/day3/hu_front_end_module/static/js/2.18251917.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d2341bf1.js",
+    "static/js/2.18251917.chunk.js",
+    "static/css/main.29bfbfbf.chunk.css",
+    "static/js/main.2df9306a.chunk.js"
+  ]
+}

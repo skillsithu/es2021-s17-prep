@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "http://localhost/day2/HU_JS-PHP_B/static/css/main.407e37af.chunk.css",
+    "main.js": "http://localhost/day2/HU_JS-PHP_B/static/js/main.1f61a6ad.chunk.js",
+    "main.js.map": "http://localhost/day2/HU_JS-PHP_B/static/js/main.1f61a6ad.chunk.js.map",
+    "runtime-main.js": "http://localhost/day2/HU_JS-PHP_B/static/js/runtime-main.d69e7740.js",
+    "runtime-main.js.map": "http://localhost/day2/HU_JS-PHP_B/static/js/runtime-main.d69e7740.js.map",
+    "static/js/2.f048db91.chunk.js": "http://localhost/day2/HU_JS-PHP_B/static/js/2.f048db91.chunk.js",
+    "static/js/2.f048db91.chunk.js.map": "http://localhost/day2/HU_JS-PHP_B/static/js/2.f048db91.chunk.js.map",
+    "static/js/3.003cf052.chunk.js": "http://localhost/day2/HU_JS-PHP_B/static/js/3.003cf052.chunk.js",
+    "static/js/3.003cf052.chunk.js.map": "http://localhost/day2/HU_JS-PHP_B/static/js/3.003cf052.chunk.js.map",
+    "index.html": "http://localhost/day2/HU_JS-PHP_B/index.html",
+    "static/css/main.407e37af.chunk.css.map": "http://localhost/day2/HU_JS-PHP_B/static/css/main.407e37af.chunk.css.map",
+    "static/js/2.f048db91.chunk.js.LICENSE.txt": "http://localhost/day2/HU_JS-PHP_B/static/js/2.f048db91.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d69e7740.js",
+    "static/js/2.f048db91.chunk.js",
+    "static/css/main.407e37af.chunk.css",
+    "static/js/main.1f61a6ad.chunk.js"
+  ]
+}

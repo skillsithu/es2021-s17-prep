@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Clock</title>
+
+    <style>
+        body {
+            background-color: #222222;
+            height: 100vh;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #app {
+            height: 900px;
+            width: 900px;
+            background-image: url('clock-fancy.png');
+            background-size: contain;
+            background-repeat: no-repeat;
+            position: relative;
+        }
+        #tick-sec {
+            background-image: url("ms-tick.png");
+            width: 68px;
+            left: 416px;
+        }
+        #tick-min, #tick-hour {
+            background: black;
+            width: 34px;
+            left: 433px;
+        }
+        .tick {
+            position: absolute;
+            height: 355px;
+            top: 273px;
+        }
+    </style>
+
+</head>
+<body>
+
+<div id="app">
+    <div id="tick-sec" class="tick"></div>
+    <div id="tick-min" class="tick"></div>
+    <div id="tick-hour" class="tick"></div>
+</div>
+
+
+
+<script>
+    const baseMargin = 180;
+    let marginTick = 2;
+    let rotate = 0;
+
+    function calcMargin(rotation) {
+        if (rotation === 0 || rotation === 360) {
+            return {
+                top: baseMargin,
+                left: 0
+            }
+        }
+
+        if (rotation > 0 && rotation < 90) {
+            return {
+                top: baseMargin - rotation * marginTick,
+                left: -(rotation * marginTick),
+            }
+        }
+
+        if (rotation === 90) {
+            return {
+                top: 0,
+                left: -baseMargin
+            }
+        }
+
+        if (rotation > 90 && rotation < 180) {
+            return {
+                top: -((rotation - 90) * marginTick),
+                left: -(baseMargin - (rotation - 90) * marginTick),
+            }
+        }
+
+        if (rotation === 180) {
+            return {
+                top: -baseMargin,
+                left: 0
+            }
+        }
+
+        if (rotation > 180 && rotation < 270) {
+            return {
+                top: -baseMargin + (rotation - 180) * marginTick,
+                left: (rotation - 180) * marginTick,
+            }
+        }
+
+        if (rotation === 270) {
+            return {
+                top: 0,
+                left: baseMargin
+            }
+        }
+
+        if (rotation > 270 && rotation < 360) {
+            return {
+                top: (rotation - 270) * marginTick,
+                left: baseMargin - (rotation - 270) * marginTick,
+            }
+        }
+    }
+
+    function tick() {
+        const now = new Date();
+        const hour = now.getHours() > 12 ? now.getHours() - 12 : now.getHours();
+        const min = now.getMinutes();
+        const sec = now.getSeconds();
+
+        let rotateSec = (sec * 6 + 180) % 360;
+        let rotateMin = (min * 6 + 180) % 360;
+        let rotateHour = hour * 15;
+
+        const secC = document.getElementById('tick-sec');
+        secC.style.transform = `rotate(${rotateSec}deg)`;
+        let margin = calcMargin(rotateSec);
+        secC.style.marginTop = `${margin.top}px`;
+        secC.style.marginLeft = `${margin.left}px`;
+
+        const minC = document.getElementById('tick-min');
+        minC.style.transform = `rotate(${rotateMin}deg)`;
+        margin = calcMargin(rotateMin);
+        minC.style.marginTop = `${margin.top}px`;
+        minC.style.marginLeft = `${margin.left}px`;
+
+        const hourC = document.getElementById('tick-hour');
+        hourC.style.transform = `rotate(${rotateHour}deg)`;
+        margin = calcMargin(rotateHour);
+        hourC.style.marginTop = `${margin.top}px`;
+        hourC.style.marginLeft = `${margin.left}px`;
+
+        setTimeout(tick, 1000);
+    }
+
+    tick();
+</script>
+
+</body>
+</html>

@@ -1,0 +1,49 @@
+
+ƒ	Web:S4645‰"hA </script> was found without a relating opening <script> tag. This may be caused by nested script tags.(ãõ§üÿÿÿÿ
+J	php:S1135ã
+"4Complete the task associated to this "TODO" comment.(”ò”™
+O	php:S1135Ó"4Complete the task associated to this "TODO" comment.(£Ú®åúÿÿÿÿ
+h	php:S1301×"MReplace this "switch" statement with "if" statements to increase readability.(·ª¡«ûÿÿÿÿ
+h	php:S1301ä"MReplace this "switch" statement with "if" statements to increase readability.(·ª¡«ûÿÿÿÿ
+S	php:S1142µ">This function has 4 returns, which is more than the 3 allowed.(úİäa
+Y	php:S1142Ğ">This function has 5 returns, which is more than the 3 allowed.(£†ŒÑıÿÿÿÿ
+S	php:S1142Œ">This function has 5 returns, which is more than the 3 allowed.(ÉÊ¾(
+T	php:S1142·
+">This function has 4 returns, which is more than the 3 allowed.(‹Ø§½
+T	php:S1142×">This function has 5 returns, which is more than the 3 allowed.(›¹—˜
+S	php:S1142—">This function has 5 returns, which is more than the 3 allowed.(”Šˆx
+T	php:S1142Ô">This function has 4 returns, which is more than the 3 allowed.(ÎäÏÄ
+Y	php:S1142˜">This function has 8 returns, which is more than the 3 allowed.(Ö’ƒÒúÿÿÿÿ
+Y	php:S1142‘">This function has 7 returns, which is more than the 3 allowed.(æÅÖÎúÿÿÿÿ
+i	php:S3776#"TRefactor this function to reduce its Cognitive Complexity from 25 to the 15 allowed.(¢øÏ
+i	php:S3776µ"TRefactor this function to reduce its Cognitive Complexity from 58 to the 15 allowed.(úİäa
+o	php:S3776ã"TRefactor this function to reduce its Cognitive Complexity from 18 to the 15 allowed.(¤ÏÜïúÿÿÿÿ
+j	php:S3776’"TRefactor this function to reduce its Cognitive Complexity from 17 to the 15 allowed.(á¸ ä
+j	php:S3776Ï"TRefactor this function to reduce its Cognitive Complexity from 18 to the 15 allowed.(ÿŠ½û
+j	php:S3776§"TRefactor this function to reduce its Cognitive Complexity from 23 to the 15 allowed.(»ì× 
+o	php:S3776İ"TRefactor this function to reduce its Cognitive Complexity from 71 to the 15 allowed.(—Å“¼ıÿÿÿÿ
+j	php:S3776×"TRefactor this function to reduce its Cognitive Complexity from 72 to the 15 allowed.(›¹—˜
+o	php:S3776‘"TRefactor this function to reduce its Cognitive Complexity from 24 to the 15 allowed.(æÅÖÎúÿÿÿÿ
+j	php:S3776¸"TRefactor this function to reduce its Cognitive Complexity from 16 to the 15 allowed.(†Ÿæ
+d	php:S1871Ä
+"NThis branch's code block is the same as the block for the branch on line 1346.(¬óîØ
+g	php:S1192Ì"QDefine a constant instead of duplicating this literal " type="text/css"" 4 times.(±ß
+r	php:S1192ê"WDefine a constant instead of duplicating this literal "Theme starter content" 37 times.(ø³Ûªÿÿÿÿÿ
+\	php:S1192¹"FDefine a constant instead of duplicating this literal "__jit" 6 times.(…­†Ë
+b	php:S1192}"HDefine a constant instead of duplicating this literal "/themes" 4 times.(ÈˆÑ¢ûÿÿÿÿ
+i	php:S1192ÿ"NDefine a constant instead of duplicating this literal "customize.php" 3 times.(ÙçÖÚùÿÿÿÿ
+f	php:S1192ô"KDefine a constant instead of duplicating this literal "/style.css" 9 times.(ÔÄÛ²şÿÿÿÿ
+”	php:S1192ú"yDefine a constant instead of duplicating this literal "<!-- wp:paragraph -->\n<p>%s</p>\n<!-- /wp:paragraph -->" 4 times.(‰›ûûÿÿÿÿ
+J	php:S3801×"4Refactor this function to use "return" consistently.(›¹—˜
+J	php:S3801Ô"4Refactor this function to use "return" consistently.(ÎäÏÄ
+J	php:S1066Ğ"/Merge this if statement with the enclosing one.(Ì¤ê«ÿÿÿÿÿ
+J	php:S1066ÿ"/Merge this if statement with the enclosing one.(ú¬Ğ†ûÿÿÿÿ
+J	php:S1066¨"/Merge this if statement with the enclosing one.(ÙË±õúÿÿÿÿ
+¤php:S138İ"‰This function "get_theme_starter_content" has 271 lines, which is greater than the 150 lines authorized. Split it into smaller functions.(—Å“¼ıÿÿÿÿ
+—php:S138×"This function "add_theme_support" has 172 lines, which is greater than the 150 lines authorized. Split it into smaller functions.(›¹—˜
+£php:S138ÿ"This function "create_initial_theme_features" has 362 lines, which is greater than the 150 lines authorized. Split it into smaller functions.(°¹Õ†
+Qphp:S131¥"7Add a "case default" clause to this "switch" statement.(Æâïêÿÿÿÿÿ
+Qphp:S131Ş"7Add a "case default" clause to this "switch" statement.(·ª¡«ûÿÿÿÿ
+Qphp:S131×"7Add a "case default" clause to this "switch" statement.(·ª¡«ûÿÿÿÿ
+Qphp:S131ä"7Add a "case default" clause to this "switch" statement.(·ª¡«ûÿÿÿÿ
+Qphp:S131¨"7Add a "case default" clause to this "switch" statement.(·ª¡«ûÿÿÿÿ

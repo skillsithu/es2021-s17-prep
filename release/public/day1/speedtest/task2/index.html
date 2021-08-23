@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="./style.css">
+	<script src="jquery/jquery-3.6.0.min.js"></script>
+	<script src="jquery-ui/jquery-ui.js"></script>
+</head>
+<body>
+	<div id="wrapper">
+		<div id="block">&nbsp;</div>
+	</div>
+
+	<script>
+		function toRed() {
+			$( "#block" ).animate({
+				backgroundColor: "red",
+				borderRadius: "50%",
+				width: "250px",
+				height: "250px"
+			}, 2000, function() {
+				toYellow();
+			});
+		}
+		function toYellow() {
+			$( "#block" ).animate({
+				backgroundColor: "yellow",
+				borderRadius: "0%",
+				width: "500px",
+				height: "500px"
+			}, 2000, function() {
+				toRed();
+			});
+		}
+
+		toRed();
+	</script>
+</body>
+</html>

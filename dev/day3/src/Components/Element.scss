@@ -1,0 +1,90 @@
+$color: orange;
+$size: 100px;
+
+.element-wrapper {
+  position: absolute;
+  width: $size + 80;
+  height: $size + 80;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+
+  &:hover {
+    .btn-action {
+      display: block;
+    }
+    .e {
+      display: flex;
+    }
+  }
+
+  .btn-action {
+    position: absolute;
+    display: none;
+
+    &.btn-delete {
+      left: 0;
+    }
+    &.btn-edit {
+      right: 0;
+    }
+  }
+}
+.element {
+  border: 1px solid $color;
+  border-radius: 50%;
+  width: $size / 2;
+  height: $size / 2;
+  transform: rotate(45deg);
+  display: flex;
+  opacity: 0;
+  flex-wrap: wrap;
+  background-color: white;
+  transition: opacity 1s, width 0.5s, height 0.5s;
+
+  &.visible {
+    opacity: 1;
+    width: $size;
+    height: $size;
+  }
+
+  .e {
+    width: 50%;
+    min-width: 50%;
+    max-width: 50%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+    &:hover {
+        font-weight: bold;
+    }
+
+    &.e1 {
+      border-bottom: 1px solid $color;
+      border-right: 1px solid $color;
+    }
+    &.e2 {
+      border-bottom: 1px solid $color;
+    }
+    &.e3 {
+      border-left: 1px solid $color;
+    }
+
+    span {
+      display: inline-block;
+      transform: rotate(-45deg);
+    }
+  }
+}
+
+.edit-card {
+    position: fixed;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    max-height: 90%;
+    z-index: 9;
+}

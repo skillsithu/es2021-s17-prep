@@ -1,0 +1,19 @@
+
+T	php:S1142»">This function has 7 returns, which is more than the 3 allowed.(ûºÅÏ
+Y	php:S1142£">This function has 5 returns, which is more than the 3 allowed.(¼•¤şÿÿÿÿ
+Y	php:S1142Â">This function has 4 returns, which is more than the 3 allowed.(„ùÂ§ùÿÿÿÿ
+T	php:S1142¡	">This function has 4 returns, which is more than the 3 allowed.(ÊÑÈ
+o	php:S3776£"TRefactor this function to reduce its Cognitive Complexity from 43 to the 15 allowed.(¼•¤şÿÿÿÿ
+j	php:S3776¦"TRefactor this function to reduce its Cognitive Complexity from 26 to the 15 allowed.(¹Àíá
+k	php:S3776¯"URefactor this function to reduce its Cognitive Complexity from 111 to the 15 allowed.(à¤÷ 
+o	php:S3776Â"TRefactor this function to reduce its Cognitive Complexity from 16 to the 15 allowed.(„ùÂ§ùÿÿÿÿ
+j	php:S3776¡	"TRefactor this function to reduce its Cognitive Complexity from 45 to the 15 allowed.(ÊÑÈ
+d	php:S1871‰"NThis branch's code block is the same as the block for the branch on line 1027.(­ïã
+d	php:S1871Õ	"NThis branch's code block is the same as the block for the branch on line 1235.(÷ÑÒµ
+d	php:S1871â	"NThis branch's code block is the same as the block for the branch on line 1248.(•‡¥¢
+f	php:S1192±"PDefine a constant instead of duplicating this literal "_menu_item_type" 4 times.(×ÊÁª
+p	php:S1192³"UDefine a constant instead of duplicating this literal "_menu_item_object_id" 4 times.(£øá ûÿÿÿÿ
+o	php:S1192¾"TDefine a constant instead of duplicating this literal "_menu_item_orphaned" 3 times.(ï’»ùúÿÿÿÿ
+j	php:S1192Û"ODefine a constant instead of duplicating this literal "#%d (no title)" 3 times.(Î·À›úÿÿÿÿ
+h	php:S1192´"RDefine a constant instead of duplicating this literal "_menu_item_object" 4 times.(êü¿
+D	php:S1172®".Remove the unused function parameter "$tt_id".(ÿãÇÙ

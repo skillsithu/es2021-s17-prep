@@ -1,0 +1,36 @@
+
+Y	php:S1142ñ">This function has 4 returns, which is more than the 3 allowed.(­ù—Ñşÿÿÿÿ
+T	php:S1142ü">This function has 4 returns, which is more than the 3 allowed.(¼È ä
+Y	php:S1142ƒ">This function has 8 returns, which is more than the 3 allowed.(¥ô©°üÿÿÿÿ
+T	php:S1142Í">This function has 4 returns, which is more than the 3 allowed.(€Õ´Ó
+Y	php:S1142ê">This function has 4 returns, which is more than the 3 allowed.(ò½ƒÛùÿÿÿÿ
+Y	php:S1142¿">This function has 8 returns, which is more than the 3 allowed.(õ³·úÿÿÿÿ
+Y	php:S1142•">This function has 9 returns, which is more than the 3 allowed.(É«²¼üÿÿÿÿ
+U	php:S1142 "?This function has 15 returns, which is more than the 3 allowed.(ÉØ°á
+j	php:S3776’"TRefactor this function to reduce its Cognitive Complexity from 26 to the 15 allowed.(Å…£²
+o	php:S3776™"TRefactor this function to reduce its Cognitive Complexity from 44 to the 15 allowed.(‰ñ¯Äøÿÿÿÿ
+o	php:S3776ñ"TRefactor this function to reduce its Cognitive Complexity from 16 to the 15 allowed.(­ù—Ñşÿÿÿÿ
+j	php:S3776ü"TRefactor this function to reduce its Cognitive Complexity from 21 to the 15 allowed.(¼È ä
+o	php:S3776ñ"TRefactor this function to reduce its Cognitive Complexity from 25 to the 15 allowed.(¼£üùÿÿÿÿ
+o	php:S3776ƒ"TRefactor this function to reduce its Cognitive Complexity from 40 to the 15 allowed.(¥ô©°üÿÿÿÿ
+j	php:S3776è
+"TRefactor this function to reduce its Cognitive Complexity from 25 to the 15 allowed.(•‘É
+o	php:S3776¿"TRefactor this function to reduce its Cognitive Complexity from 40 to the 15 allowed.(õ³·úÿÿÿÿ
+o	php:S3776•"TRefactor this function to reduce its Cognitive Complexity from 49 to the 15 allowed.(É«²¼üÿÿÿÿ
+j	php:S3776 "TRefactor this function to reduce its Cognitive Complexity from 40 to the 15 allowed.(ÉØ°á
+j	php:S3776¹"TRefactor this function to reduce its Cognitive Complexity from 17 to the 15 allowed.(ºÁ±—
+d	php:S1871÷"NThis branch's code block is the same as the block for the branch on line 1906.(­ïã
+i	php:S1871ú"NThis branch's code block is the same as the block for the branch on line 1906.(Ç¤™üÿÿÿÿ
+d	php:S1871§"NThis branch's code block is the same as the block for the branch on line 1956.(ƒ½Ôù
+d	php:S1871Ø"NThis branch's code block is the same as the block for the branch on line 2134.(›‹“Ó
+_	php:S1192õ"JDefine a constant instead of duplicating this literal "/plugins/" 3 times.(€Åv
+j	php:S1192µ	"ODefine a constant instead of duplicating this literal "/uninstall.php" 3 times.(…¦³£üÿÿÿÿ
+_	php:S1192V"JDefine a constant instead of duplicating this literal "_sitewide" 4 times.(Á›ÌÍ
+b	php:S1192¡"LDefine a constant instead of duplicating this literal "plugins.php" 3 times.(´‰¨¢
+k	php:S1192¹"PDefine a constant instead of duplicating this literal "_paused_plugins" 7 times.(áÏÚÓûÿÿÿÿ
+e	php:S1192Ã"JDefine a constant instead of duplicating this literal "admin.php" 5 times.(Şøìüÿÿÿÿ
+e	php:S1192š"JDefine a constant instead of duplicating this literal "index.php" 3 times.(Åøò¦şÿÿÿÿ
+O	php:S3801ƒ"4Refactor this function to use "return" consistently.(¥ô©°üÿÿÿÿ
+t	php:S1488¬"^Immediately return this expression instead of assigning it to the temporary variable "$title".(ıµÙ
+t	php:S1488Ç"^Immediately return this expression instead of assigning it to the temporary variable "$title".(íí©é
+N	php:S1172ƒ"3Remove the unused function parameter "$deprecated".(¥ô©°üÿÿÿÿ

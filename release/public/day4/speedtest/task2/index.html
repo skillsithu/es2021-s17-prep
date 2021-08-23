@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Clock</title>
+
+    <style>
+        html, body {
+            padding: 0;
+            margin: 0;
+            height: 100%;
+            font-family: Arial, sans-serif;
+            color: #cecece;
+            background-color: #555555;
+        }
+        header {
+            background: #222222;
+            border-bottom: 2px solid black;
+            padding: 1rem;
+            display: flex;
+            align-items: center;
+        }
+        header h1 {
+            margin: 0 2% 0 0;
+        }
+
+        header div {
+            flex: 1;
+        }
+
+        header input {
+            width: 100%;
+            color: #a2a2a2;
+            font-size: 1.25rem;
+            padding: 0.5rem;
+            background: transparent;
+            border-radius: 10px;
+            border: 0;
+            box-shadow: 0 0 10px #a2a2a2;
+            outline: none;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: black;
+            color: #cecece;
+            padding: 0.5rem;
+            border: 0;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #222222;
+            cursor: pointer;
+        }
+
+        #indicator {
+            background-color: #222222;
+            height: 5px;
+            border-radius: 5px;
+            margin-bottom: 1rem;
+            position: relative;
+        }
+        #dot {
+            background-color: #888888;
+            border-radius: 50%;
+            position: absolute;
+            height: 12px;
+            width: 12px;
+            top: -3px;
+            left: 50px;
+            cursor: pointer;
+        }
+
+        main {
+            background-color: #555555;
+            padding: 1rem;
+            display: flex;
+        }
+        #placeholder {
+            width: 60vw;
+            height: 50vh;
+            background-color: #222222;
+        }
+        #actions {
+            background-color: #333333;
+            padding: 0.5rem 1rem 1rem 1rem;
+        }
+        #about {
+            background-color: #444444;
+            padding: 1rem;
+        }
+        #about #title {
+            display: flex;
+            justify-content: space-between;
+        }
+        #about #title h2 {
+            margin-top: 0;
+        }
+        #right {
+            margin-left: 1rem;
+            flex: 1
+        }
+        #right h2 {
+            margin: 0;
+        }
+
+        #buttons {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .mini-video {
+            display: flex;
+            padding: 0.5rem;
+            margin: 0.5rem 0;
+        }
+        .mini-video.active {
+            background-color: #777777;
+        }
+        .mini-video .img {
+            background-color: #222222;
+            width: 120px;
+            height: 80px;
+            margin-right: 0.5rem;
+        }
+        .mini-video .title {
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+            font-size: 1.25rem;
+        }
+
+        .comment {
+            background-color: #444444;
+            padding: 1rem;
+            margin-bottom: 0.5rem;
+        }
+        .attached {
+            background-color: #666666;
+        }
+        .comment div {
+            font-weight: bold;
+        }
+        .comment p {
+            margin-bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Video player</h1>
+        <div>
+            <input placeholder="Search" />
+        </div>
+    </header>
+    <main>
+        <div id="player">
+            <div id="video">
+                <div id="placeholder"></div>
+                <div id="actions">
+                    <div id="indicator">
+                        <div id="dot"></div>
+                    </div>
+                    <div id="buttons">
+                        <div>
+                            <button>Play</button>
+                            <button>Next</button>
+                        </div>
+                        <div>
+                            <button>Mute</button>
+                            <button>Set Volume</button>
+                        </div>
+                    </div>
+                </div>
+                <div id="about">
+                    <div id="title">
+                        <h2>Best video</h2>
+                        <div>23 likes</div>
+                    </div>
+                    <p>Lorem Ipsum Dolor sit amet</p>
+                </div>
+            </div>
+            <div id="comments">
+                <h3>Comments</h3>
+                <div class="comment attached">
+                    <div>User name 11:56 <small>(attached by the uploader)</small></div>
+                    <p>Lorem Ipsum dolor sit amet. Great video.</p>
+                </div>
+                <div class="comment">
+                    <div>User name 11:56</div>
+                    <p>Lorem Ipsum dolor sit amet. Great video.</p>
+                </div>
+                <div class="comment">
+                    <div>User name 11:56</div>
+                    <p>Lorem Ipsum dolor sit amet. Great video.</p>
+                </div>
+                <div class="comment">
+                    <div>User name 11:56</div>
+                    <p>Lorem Ipsum dolor sit amet. Great video.</p>
+                </div>
+                <div class="comment">
+                    <div>User name 11:56</div>
+                    <p>Lorem Ipsum dolor sit amet. Great video.</p>
+                </div>
+                <div class="comment">
+                    <div>User name 11:56</div>
+                    <p>Lorem Ipsum dolor sit amet. Great video.</p>
+                </div>
+            </div>
+        </div>
+        <div id="right">
+            <div id="playlist">
+                <h2>Playlist</h2>
+                <div class="mini-video active">
+                    <div class="img"></div>
+                    <div class="content">
+                        <div class="title">Best video</div>
+                        <div class="duration">1:42, 23 likes</div>
+                    </div>
+                </div>
+                <div class="mini-video">
+                    <div class="img"></div>
+                    <div class="content">
+                        <div class="title">Best video</div>
+                        <div class="duration">1:42, 23 likes</div>
+                    </div>
+                </div>
+                <div class="mini-video">
+                    <div class="img"></div>
+                    <div class="content">
+                        <div class="title">Best video</div>
+                        <div class="duration">1:42, 23 likes</div>
+                    </div>
+                </div>
+            </div>
+            <div id="browser">
+                <h2>Browse</h2>
+                <div class="mini-video">
+                    <div class="img"></div>
+                    <div class="content">
+                        <div class="title">Best video</div>
+                        <div class="duration">1:42, 23 likes</div>
+                    </div>
+                </div>
+                <div class="mini-video">
+                    <div class="img"></div>
+                    <div class="content">
+                        <div class="title">Best video</div>
+                        <div class="duration">1:42, 23 likes</div>
+                    </div>
+                </div>
+                <div class="mini-video">
+                    <div class="img"></div>
+                    <div class="content">
+                        <div class="title">Best video</div>
+                        <div class="duration">1:42, 23 likes</div>
+                    </div>
+                </div>
+                <div class="mini-video">
+                    <div class="img"></div>
+                    <div class="content">
+                        <div class="title">Best video</div>
+                        <div class="duration">1:42, 23 likes</div>
+                    </div>
+                </div>
+                <div class="mini-video">
+                    <div class="img"></div>
+                    <div class="content">
+                        <div class="title">Best video</div>
+                        <div class="duration">1:42, 23 likes</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

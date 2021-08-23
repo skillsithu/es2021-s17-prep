@@ -1,0 +1,81 @@
+
+O	php:S1135¯"4Complete the task associated to this "TODO" comment.(®³äúûÿÿÿÿ
+T	php:S1142¹">This function has 7 returns, which is more than the 3 allowed.(³×ÚÁ
+Y	php:S1142µ">This function has 4 returns, which is more than the 3 allowed.(õ¶òÿÿÿÿÿ
+T	php:S1142Û">This function has 6 returns, which is more than the 3 allowed.(°ŠÂâ
+T	php:S1142“">This function has 6 returns, which is more than the 3 allowed.(¿œ¯Û
+Y	php:S1142ß">This function has 5 returns, which is more than the 3 allowed.(âµõëÿÿÿÿÿ
+U	php:S1142ú"?This function has 13 returns, which is more than the 3 allowed.(¥¼öú
+T	php:S1142™#">This function has 4 returns, which is more than the 3 allowed.(Ãü‘¹
+T	php:S1142€%">This function has 4 returns, which is more than the 3 allowed.(„ÿ
+T	php:S1142á,">This function has 5 returns, which is more than the 3 allowed.(®ûÁ²
+Y	php:S1142‰/">This function has 4 returns, which is more than the 3 allowed.(¾øÕÿÿÿÿÿ
+Y	php:S1142Ú/">This function has 6 returns, which is more than the 3 allowed.(ÎÍã­úÿÿÿÿ
+Y	php:S1142¢1">This function has 4 returns, which is more than the 3 allowed.(×¾Î“ÿÿÿÿÿ
+Y	php:S1142ğ1">This function has 4 returns, which is more than the 3 allowed.(ıÌ»ûşÿÿÿÿ
+Y	php:S1142Û2">This function has 4 returns, which is more than the 3 allowed.(®Æúıÿÿÿÿ
+Y	php:S1142ƒ3">This function has 5 returns, which is more than the 3 allowed.(‰ŞÁŞşÿÿÿÿ
+Y	php:S1142°3">This function has 9 returns, which is more than the 3 allowed.(Ëœï¿şÿÿÿÿ
+S	php:S1142¤7">This function has 4 returns, which is more than the 3 allowed.(Ş«˜{
+T	php:S1142 :">This function has 6 returns, which is more than the 3 allowed.(Ìö°
+j	php:S3776¹"TRefactor this function to reduce its Cognitive Complexity from 17 to the 15 allowed.(³×ÚÁ
+o	php:S3776Ó"TRefactor this function to reduce its Cognitive Complexity from 16 to the 15 allowed.(˜†àŠıÿÿÿÿ
+j	php:S3776Ë"TRefactor this function to reduce its Cognitive Complexity from 16 to the 15 allowed.(¡†ù¥
+o	php:S3776ù"TRefactor this function to reduce its Cognitive Complexity from 27 to the 15 allowed.(Ôß©îûÿÿÿÿ
+o	php:S3776á"TRefactor this function to reduce its Cognitive Complexity from 20 to the 15 allowed.(è¦Ù úÿÿÿÿ
+o	php:S3776–"TRefactor this function to reduce its Cognitive Complexity from 24 to the 15 allowed.(ĞÎ£«ıÿÿÿÿ
+j	php:S3776Û"TRefactor this function to reduce its Cognitive Complexity from 18 to the 15 allowed.(°ŠÂâ
+k	php:S3776ú"URefactor this function to reduce its Cognitive Complexity from 210 to the 15 allowed.(¥¼öú
+j	php:S3776™#"TRefactor this function to reduce its Cognitive Complexity from 19 to the 15 allowed.(Ãü‘¹
+j	php:S3776€%"TRefactor this function to reduce its Cognitive Complexity from 45 to the 15 allowed.(„ÿ
+j	php:S3776§*"TRefactor this function to reduce its Cognitive Complexity from 28 to the 15 allowed.(ŒÃØı
+j	php:S3776á,"TRefactor this function to reduce its Cognitive Complexity from 81 to the 15 allowed.(®ûÁ²
+o	php:S3776Â0"TRefactor this function to reduce its Cognitive Complexity from 40 to the 15 allowed.(Ô“şÜúÿÿÿÿ
+o	php:S3776÷3"TRefactor this function to reduce its Cognitive Complexity from 69 to the 15 allowed.(Ó›ìğúÿÿÿÿ
+o	php:S3776õ5"TRefactor this function to reduce its Cognitive Complexity from 24 to the 15 allowed.(—Ø×şüÿÿÿÿ
+i	php:S3776‡;"TRefactor this function to reduce its Cognitive Complexity from 20 to the 15 allowed.(—ú
+i	php:S1871"NThis branch's code block is the same as the block for the branch on line 3967.(Ğç¬¢ıÿÿÿÿ
+k	php:S1192g"QDefine a constant instead of duplicating this literal "attachment:video" 3 times.(°©¢­ıÿÿÿÿ
+c	php:S1192—5"MDefine a constant instead of duplicating this literal "_wp_old_slug" 3 times.(¥åô—
+l	php:S1192"WDefine a constant instead of duplicating this literal "add new from admin bar" 3 times.(ıÎ¿©
+d	php:S1192ç!"NDefine a constant instead of duplicating this literal "_thumbnail_id" 6 times.(âıâÑ
+q	php:S1192J"WDefine a constant instead of duplicating this literal "post type general name" 5 times.(‹íÏ™øÿÿÿÿ
+_	php:S1192"JDefine a constant instead of duplicating this literal "_builtin" 24 times.(™ééÁ
+k	php:S1192f"QDefine a constant instead of duplicating this literal "attachment:audio" 3 times.(µøô²ıÿÿÿÿ
+j	php:S1192Ş"ODefine a constant instead of duplicating this literal "request status" 8 times.(üÒ× ÿÿÿÿÿ
+s	php:S1192³"XDefine a constant instead of duplicating this literal "post type singular name" 4 times.(óä¨ëùÿÿÿÿ
+m	php:S1192«"RDefine a constant instead of duplicating this literal "_wp_attached_file" 4 times.(‡í…¦úÿÿÿÿ
+b	php:S1192ó"LDefine a constant instead of duplicating this literal "post status" 6 times.(¸÷Ú°
+j	php:S1192Š"TDefine a constant instead of duplicating this literal "_wp_trash_meta_time" 4 times.(“ Ã—
+z	php:S1192â"_Define a constant instead of duplicating this literal "_wp_trash_meta_comments_status" 3 times.(ç¢Ø¿øÿÿÿÿ
+h	php:S1192Å5"MDefine a constant instead of duplicating this literal "_wp_old_date" 3 times.(Ã·ü¯şÿÿÿÿ
+e	php:S1192"QDefine a constant instead of duplicating this literal "post.php?post=%d" 3 times.(Îï¦
+_	php:S1192"KDefine a constant instead of duplicating this literal "_edit_link" 4 times.(Îï¦
+ƒ	php:S1192£"hDefine a constant instead of duplicating this literal "Pending <span class="count">(%s)</span>" 4 times.(¼ÔØäùÿÿÿÿ
+q	php:S1192Ñ"VDefine a constant instead of duplicating this literal "_wp_trash_meta_status" 6 times.(¦ñÙÃşÿÿÿÿ
+j	php:S1192§"TDefine a constant instead of duplicating this literal "0000-00-00 00:00:00" 6 times.(³‚ş’
+\	php:S1192L"HDefine a constant instead of duplicating this literal "Add New" 6 times.(¶”Ë|
+i	php:S1192•"SDefine a constant instead of duplicating this literal "/^[\s]*(.*)[\s]*$/" 3 times.(±®İ
+s	php:S1192¯1"XDefine a constant instead of duplicating this literal "_wp_attachment_metadata" 3 times.(áÜùñùÿÿÿÿ
+q	php:S1192‡ "VDefine a constant instead of duplicating this literal "_wp_desired_post_slug" 3 times.(Œ¨İøÿÿÿÿ
+O	php:S3801í"4Refactor this function to use "return" consistently.(–™÷“şÿÿÿÿ
+J	php:S3801Ã"4Refactor this function to use "return" consistently.(„ğáµ
+J	php:S3801€"4Refactor this function to use "return" consistently.(¦“Ÿõ
+J	php:S3801§*"4Refactor this function to use "return" consistently.(ŒÃØı
+z	php:S1488ş"_Immediately return this expression instead of assigning it to the temporary variable "$status".(ÔéÙ«şÿÿÿÿ
+z	php:S1488“"_Immediately return this expression instead of assigning it to the temporary variable "$status".(ÔéÙ«şÿÿÿÿ
+s	php:S1488Ğ"]Immediately return this expression instead of assigning it to the temporary variable "$cats".(°Ã‰—
+x	php:S1488ÿ"]Immediately return this expression instead of assigning it to the temporary variable "$tags".(çï¦îşÿÿÿÿ
+t	php:S1488Á."^Immediately return this expression instead of assigning it to the temporary variable "$pages".(Ğ
+y	php:S1488Å<"^Immediately return this expression instead of assigning it to the temporary variable "$types".(Î¦êşÿÿÿÿ
+F	php:S1481İ4"+Remove this unused "$match" local variable.(ŞæŠ¼øÿÿÿÿ
+I	php:S1172Ó9"3Remove the unused function parameter "$deprecated".(‘ğàÍ
+I	php:S1172³;"3Remove the unused function parameter "$new_status".(¥ÇæÛ
+I	php:S1172³;"3Remove the unused function parameter "$old_status".(¥ÇæÛ
+N	php:S1172§="3Remove the unused function parameter "$new_status".(­î¹Óûÿÿÿÿ
+K	php:S1172§="0Remove the unused function parameter "$post_id".(­î¹Óûÿÿÿÿ
+E	php:S1066Ê0"/Merge this if statement with the enclosing one.(³–ğƒ
+php:S138"‰This function "create_initial_post_types" has 481 lines, which is greater than the 150 lines authorized. Split it into smaller functions.(àÑâï
+“php:S138ú"~This function "wp_insert_post" has 365 lines, which is greater than the 150 lines authorized. Split it into smaller functions.(¥¼öú
+php:S138á,"yThis function "get_pages" has 220 lines, which is greater than the 150 lines authorized. Split it into smaller functions.(®ûÁ²
+Qphp:S131¿7"7Add a "case default" clause to this "switch" statement.(”ÜÃµşÿÿÿÿ

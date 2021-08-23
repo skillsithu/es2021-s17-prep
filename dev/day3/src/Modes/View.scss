@@ -1,0 +1,43 @@
+.mr-3 {
+  margin-right: 1rem;
+}
+
+.slide {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 90%;
+}
+
+.in {
+  transition: all 1s;
+}
+.in-e1 {
+  top: -50%;
+}
+.in-e2 {
+  left: 150%;
+}
+.in-e3 {
+  top: 150%;
+}
+.in-e4 {
+  left: -50%;
+}
+.out-e1 {
+  top: 150%;
+  transition: top 1s;
+}
+.out-e2 {
+  left: -50%;
+  transition: left 1s;
+}
+.out-e3 {
+  top: -50%;
+  transition: top 1s;
+}
+.out-e4 {
+  left: 150%;
+  transition: left 1s;
+}

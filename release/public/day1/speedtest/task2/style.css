@@ -1,0 +1,22 @@
+/*CSS RESET*/
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/*PUT YOUR CSS CODE HERE*/
+
+#wrapper {
+	display: flex;
+	width: 100vw;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+}
+#block {
+	width: 500px;
+	height: 500px;
+	background-color: yellow;
+	border-radius: 0%;
+}
