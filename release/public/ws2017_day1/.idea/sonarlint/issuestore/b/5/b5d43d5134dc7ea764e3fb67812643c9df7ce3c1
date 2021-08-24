@@ -1,0 +1,37 @@
+
+Y	php:S1142¥">This function has 4 returns, which is more than the 3 allowed.(ØÊÆıÿÿÿÿ
+S	php:S1142Ì">This function has 4 returns, which is more than the 3 allowed.(›¸çA
+o	php:S3776ò"TRefactor this function to reduce its Cognitive Complexity from 34 to the 15 allowed.(Å–¤†úÿÿÿÿ
+z	php:S4144µ"_Update this method so that its implementation is not identical to "has_sub_fields" on line 735.(Ú‚ÑÁùÿÿÿÿ
+u	php:S4144»"_Update this method so that its implementation is not identical to "has_sub_fields" on line 735.(ÃÛş‰
+t	php:S4144©"^Update this method so that its implementation is not identical to "create_field" on line 1443.(•»‹¡
+Iphp:S121q"0Add curly braces around the nested statement(s).(¸ê°†øÿÿÿÿ
+Dphp:S121}"0Add curly braces around the nested statement(s).(÷È¤¾
+Jphp:S121Ï"0Add curly braces around the nested statement(s).(Íÿéúÿÿÿÿ
+Ephp:S121İ"0Add curly braces around the nested statement(s).(÷È¤¾
+Ephp:S121î"0Add curly braces around the nested statement(s).(÷È¤¾
+Jphp:S121’"0Add curly braces around the nested statement(s).(Ùš…ùÿÿÿÿ
+Jphp:S121¿"0Add curly braces around the nested statement(s).(©²ÂÛøÿÿÿÿ
+Dphp:S121Æ"0Add curly braces around the nested statement(s).(µ‡•
+Jphp:S121Í"0Add curly braces around the nested statement(s).(ü¼Úıøÿÿÿÿ
+Ephp:S121Ş"0Add curly braces around the nested statement(s).(•ÏÉª
+Jphp:S121•"0Add curly braces around the nested statement(s).(ß‚¯€ûÿÿÿÿ
+Jphp:S121"0Add curly braces around the nested statement(s).(Ú”Ñ®ÿÿÿÿÿ
+Jphp:S121è"0Add curly braces around the nested statement(s).(¯î¿úÿÿÿÿ
+Ephp:S121ğ"0Add curly braces around the nested statement(s).(¶ĞŞ´
+Jphp:S121‘"0Add curly braces around the nested statement(s).(Å´İìûÿÿÿÿ
+Ephp:S121ú"0Add curly braces around the nested statement(s).(¶ĞŞ´
+Jphp:S121²"0Add curly braces around the nested statement(s).(¯î¿úÿÿÿÿ
+Ephp:S121º"0Add curly braces around the nested statement(s).(¶ĞŞ´
+Ephp:S121ò"0Add curly braces around the nested statement(s).(¶ĞŞ´
+Ephp:S121É"0Add curly braces around the nested statement(s).(÷È¤¾
+Ephp:S121†	"0Add curly braces around the nested statement(s).(¶ĞŞ´
+Ephp:S121¿	"0Add curly braces around the nested statement(s).(÷È¤¾
+Ephp:S121ş	"0Add curly braces around the nested statement(s).(¶ĞŞ´
+Ephp:S121¶
+"0Add curly braces around the nested statement(s).(÷È¤¾
+Ephp:S121Â
+"0Add curly braces around the nested statement(s).(ÌÄ
+Ephp:S121ù
+"0Add curly braces around the nested statement(s).(¶ĞŞ´
+Ephp:S121…"0Add curly braces around the nested statement(s).(ÌÄ

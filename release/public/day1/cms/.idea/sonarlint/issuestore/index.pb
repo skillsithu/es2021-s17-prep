@@ -21,3 +21,7 @@ c
 3wp-content/plugins/advanced-custom-fields/README.md,2\7\272aaa126fc5aedfd460d797ddeda8ad483efcf4
 y
 Iwp-content/plugins/advanced-custom-fields/includes/acf-meta-functions.php,c\3\c305d4c00c0b4171acdf966588c20fe4a3550217
+\
+,wp-content/themes/kazan_museumtour/style.css,5\c\5ccea303923c65798bc5ad4a7dfd6d326bef0529
+]
+-wp-content/themes/kazan_museumtour/footer.php,b\8\b814dafbd46530aaf45401d0d16bc22ffa13e32d

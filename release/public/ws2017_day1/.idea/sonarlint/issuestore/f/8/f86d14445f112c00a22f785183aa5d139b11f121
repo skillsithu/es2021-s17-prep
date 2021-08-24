@@ -1,0 +1,13 @@
+
+S	php:S1142Ë">This function has 4 returns, which is more than the 3 allowed.(øÛå
+T	php:S1142å">This function has 6 returns, which is more than the 3 allowed.(ÓëÎï
+Y	php:S1142½">This function has 4 returns, which is more than the 3 allowed.(ì£¾ÿıÿÿÿÿ
+j	php:S3776å"TRefactor this function to reduce its Cognitive Complexity from 16 to the 15 allowed.(ÓëÎï
+°	php:S1192Ü"™Define a constant instead of duplicating this literal "%1$s is <strong>deprecated</strong> since Contact Form 7 version %2$s! Use %3$s instead." 3 times.(ò¼şç
+x	php:S1488Œ"]Immediately return this expression instead of assigning it to the temporary variable "$link".(¸ˆ¥Ñûÿÿÿÿ
+Q	php:S3972"7Move this "if" to a new line or add the missing "else".(Ÿ„–•úÿÿÿÿ
+-	php:S2010"Replace "and" with "&&".(§š«Ó
+2	php:S2010"Replace "or" with "||".(¿„Íïøÿÿÿÿ
+.	php:S2010Œ"Replace "and" with "&&".(èáÜá
+2	php:S2010¥"Replace "or" with "||".(ñ¢Šåÿÿÿÿÿ
+-	php:S2010¿"Replace "or" with "||".(Êè³â

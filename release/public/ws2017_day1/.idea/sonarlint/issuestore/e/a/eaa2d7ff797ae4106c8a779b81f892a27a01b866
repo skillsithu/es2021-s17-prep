@@ -1,0 +1,72 @@
+
+ƒ	Web:S4645Ï"hA </script> was found without a relating opening <script> tag. This may be caused by nested script tags.(ãõ§üÿÿÿÿ
+IWeb:TableWithoutCaptionCheck—" Add a description to this table.(İ“Œ‘
+h Web:TableHeaderHasIdOrScopeCheck™";Add either an 'id' or a 'scope' attribute to this <th> tag.(à¦‘ö
+h Web:TableHeaderHasIdOrScopeCheckš";Add either an 'id' or a 'scope' attribute to this <th> tag.(‰ÉÖ³
+m Web:TableHeaderHasIdOrScopeCheck›";Add either an 'id' or a 'scope' attribute to this <th> tag.(¼íŞÈøÿÿÿÿ
+NWeb:TableWithoutCaptionCheck·" Add a description to this table.(Ø‘ãÍûÿÿÿÿ
+\php:S107…"GThis function has 8 parameters, which is greater than the 7 authorized.(Ê°èÀ
+\php:S107¼"GThis function has 8 parameters, which is greater than the 7 authorized.(úÊÀİ
+h	php:S1301ã"MReplace this "switch" statement with "if" statements to increase readability.(á«÷øÿÿÿÿ
+T	php:S1142Ô">This function has 5 returns, which is more than the 3 allowed.(«ñ¨
+Y	php:S1142á">This function has 7 returns, which is more than the 3 allowed.(Ÿ¤“¸şÿÿÿÿ
+j	php:S3776¤"TRefactor this function to reduce its Cognitive Complexity from 46 to the 15 allowed.(ÖÔêİ
+j	php:S3776·"TRefactor this function to reduce its Cognitive Complexity from 16 to the 15 allowed.(¥•—Ø
+o	php:S3776Ğ"TRefactor this function to reduce its Cognitive Complexity from 58 to the 15 allowed.(É»ÌÊûÿÿÿÿ
+j	php:S3776Ô"TRefactor this function to reduce its Cognitive Complexity from 44 to the 15 allowed.(«ñ¨
+j	php:S3776ê
+"TRefactor this function to reduce its Cognitive Complexity from 18 to the 15 allowed.(º¯á
+j	php:S3776ú"TRefactor this function to reduce its Cognitive Complexity from 18 to the 15 allowed.(œğôØ
+o	php:S3776¯"TRefactor this function to reduce its Cognitive Complexity from 88 to the 15 allowed.(¢â·şşÿÿÿÿ
+i	php:S3776Ó"TRefactor this function to reduce its Cognitive Complexity from 73 to the 15 allowed.(®€Îi
+j	php:S3776“"TRefactor this function to reduce its Cognitive Complexity from 39 to the 15 allowed.(€œ®²
+i	php:S3776©"TRefactor this function to reduce its Cognitive Complexity from 30 to the 15 allowed.(çÇ˜A
+j	php:S3776Û"TRefactor this function to reduce its Cognitive Complexity from 47 to the 15 allowed.(Ş‹ƒ•
+o	php:S3776±"TRefactor this function to reduce its Cognitive Complexity from 23 to the 15 allowed.(æÏÇ úÿÿÿÿ
+j	php:S3776Ş"TRefactor this function to reduce its Cognitive Complexity from 21 to the 15 allowed.(‘å•à
+j	php:S3776À"TRefactor this function to reduce its Cognitive Complexity from 19 to the 15 allowed.(ïñœÄ
+g	php:S1192Ë"QDefine a constant instead of duplicating this literal "Save all changes" 3 times.(÷äâº
+i	php:S1192£"SDefine a constant instead of duplicating this literal " checked="checked"" 4 times.(ÛÂÃ³
+t	php:S1192ˆ"YDefine a constant instead of duplicating this literal "_wp_attachment_image_alt" 4 times.(Ô²×ºüÿÿÿÿ
+l	php:S1192Ã"QDefine a constant instead of duplicating this literal "Insert into Post" 3 times.(ÏıŞşÿÿÿÿ
+{	php:S1192¸"`Define a constant instead of duplicating this literal "<span class="required">*</span>" 5 times.(Ôæó¾úÿÿÿÿ
+g	php:S1192Î"QDefine a constant instead of duplicating this literal "Alternative Text" 3 times.(¢Ÿ§
+y	php:S1192¸"^Define a constant instead of duplicating this literal "Required fields are marked %s" 3 times.(Ôæó¾úÿÿÿÿ
+j	php:S1192¤"ODefine a constant instead of duplicating this literal " html-uploader" 4 times.(ù±â­ıÿÿÿÿ
+b	php:S1192‚
+"LDefine a constant instead of duplicating this literal "</textarea>" 3 times.(ºÉÚ²
+i	php:S1192ÿ"SDefine a constant instead of duplicating this literal " checked='checked'" 3 times.(Ø¨îÏ
+b	php:S1192¸"GDefine a constant instead of duplicating this literal "_final" 4 times.(îÛ·ƒúÿÿÿÿ
+d	php:S1192m"JDefine a constant instead of duplicating this literal "<a href='" 4 times.(™úÓÖşÿÿÿÿ
+x	php:S1488¦"]Immediately return this expression instead of assigning it to the temporary variable "$html".(îêµÕúÿÿÿÿ
+D	php:S1172¼".Remove the unused function parameter "$title".(úÊÀİ
+B	php:S1172¼",Remove the unused function parameter "$url".(úÊÀİ
+C	php:S1172¼"-Remove the unused function parameter "$size".(úÊÀİ
+B	php:S1172¼",Remove the unused function parameter "$alt".(úÊÀİ
+H	php:S1172
+"-Remove the unused function parameter "$post".(×İ›úÿÿÿÿ
+C	php:S1172›
+"-Remove the unused function parameter "$post".(ÊûœÕ
+C	php:S1172©
+"-Remove the unused function parameter "$post".(Ù²øú
+I	php:S1172»
+"3Remove the unused function parameter "$attachment".(ó±Ô¼
+E	php:S1172Ú"/Remove the unused function parameter "$errors".(ÒáÉÚ
+A	php:S1172Ú"+Remove the unused function parameter "$id".(ÒáÉÚ
+E	php:S1066ª"/Merge this if statement with the enclosing one.(µ¨¤Ù
+J	php:S1066ô"/Merge this if statement with the enclosing one.(’Şüÿÿÿÿ
+J	php:S1066½
+"/Merge this if statement with the enclosing one.(šíéæøÿÿÿÿ
+J	php:S1066¦"/Merge this if statement with the enclosing one.(°ãÆçúÿÿÿÿ
+E	php:S1066õ"/Merge this if statement with the enclosing one.(Õ™Ü©
+€	php:S3699Ç"jRemove this use of the output from "media_send_to_editor"; "media_send_to_editor" doesn't return anything.(İöœ
+€	php:S3699­"jRemove this use of the output from "media_send_to_editor"; "media_send_to_editor" doesn't return anything.(İöœ
+j	php:S3699´"TRemove this use of the output from "wp_iframe"; "wp_iframe" doesn't return anything.(©ôä
+o	php:S3699É"TRemove this use of the output from "wp_iframe"; "wp_iframe" doesn't return anything.(ë“ì¥ÿÿÿÿÿ
+j	php:S3699Ì"TRemove this use of the output from "wp_iframe"; "wp_iframe" doesn't return anything.(øâõó
+j	php:S3699Å"TRemove this use of the output from "wp_iframe"; "wp_iframe" doesn't return anything.(©ôä
+o	php:S3699İ"TRemove this use of the output from "wp_iframe"; "wp_iframe" doesn't return anything.(û¨”şÿÿÿÿ
+4php:S125–"Remove this commented out code.(µ—àá
+4php:S125Ä"Remove this commented out code.(µ—àá
+˜php:S138¯"~This function "get_media_item" has 210 lines, which is greater than the 150 lines authorized. Split it into smaller functions.(¢â·şşÿÿÿÿ
+Qphp:S131š"7Add a "case default" clause to this "switch" statement.(Æùë„şÿÿÿÿ

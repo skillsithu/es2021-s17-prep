@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "http://localhost/ws2017_day2/HU_Server_B/static/css/main.14eea77e.chunk.css",
+    "main.js": "http://localhost/ws2017_day2/HU_Server_B/static/js/main.877c3ad4.chunk.js",
+    "main.js.map": "http://localhost/ws2017_day2/HU_Server_B/static/js/main.877c3ad4.chunk.js.map",
+    "runtime-main.js": "http://localhost/ws2017_day2/HU_Server_B/static/js/runtime-main.12036f3a.js",
+    "runtime-main.js.map": "http://localhost/ws2017_day2/HU_Server_B/static/js/runtime-main.12036f3a.js.map",
+    "static/js/2.0d3f2bfc.chunk.js": "http://localhost/ws2017_day2/HU_Server_B/static/js/2.0d3f2bfc.chunk.js",
+    "static/js/2.0d3f2bfc.chunk.js.map": "http://localhost/ws2017_day2/HU_Server_B/static/js/2.0d3f2bfc.chunk.js.map",
+    "static/js/3.110293b9.chunk.js": "http://localhost/ws2017_day2/HU_Server_B/static/js/3.110293b9.chunk.js",
+    "static/js/3.110293b9.chunk.js.map": "http://localhost/ws2017_day2/HU_Server_B/static/js/3.110293b9.chunk.js.map",
+    "index.html": "http://localhost/ws2017_day2/HU_Server_B/index.html",
+    "static/css/main.14eea77e.chunk.css.map": "http://localhost/ws2017_day2/HU_Server_B/static/css/main.14eea77e.chunk.css.map",
+    "static/js/2.0d3f2bfc.chunk.js.LICENSE.txt": "http://localhost/ws2017_day2/HU_Server_B/static/js/2.0d3f2bfc.chunk.js.LICENSE.txt",
+    "static/media/map.40c87800.svg": "http://localhost/ws2017_day2/HU_Server_B/static/media/map.40c87800.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.12036f3a.js",
+    "static/js/2.0d3f2bfc.chunk.js",
+    "static/css/main.14eea77e.chunk.css",
+    "static/js/main.877c3ad4.chunk.js"
+  ]
+}
