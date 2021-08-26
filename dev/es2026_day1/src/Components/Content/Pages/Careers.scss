@@ -1,0 +1,13 @@
+@import "../../../variables";
+
+.careers {
+  padding: 0.5rem;
+
+  img {
+    width: 100%;
+  }
+
+  figure {
+    @include figcaption-animation;
+  }
+}

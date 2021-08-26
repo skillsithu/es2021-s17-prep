@@ -1,0 +1,131 @@
+.financial-report {
+  .row {
+    align-items: center;
+  }
+  .text {
+    text-align: right;
+    border-right: 2px solid #efefef;
+  }
+  .stock {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+
+  .btn.btn-outline-secondary {
+    color: skyblue;
+    border-color: skyblue;
+    padding-left: 32px;
+    position: relative;
+
+    &:hover {
+      background-color: transparent;
+      color: rebeccapurple;
+      border-color: rebeccapurple;
+    
+      .btn-dots {
+        opacity: 1;
+        top: 12px;
+        left: 10px;
+
+        .btn-dot-1 {
+          top: 0;
+          left: 6px;
+        }
+        .btn-dot-2 {
+          top: 4px;
+          left: 6px;
+        }
+        .btn-dot-3 {
+          top: 8px;
+          left: 6px;
+        }
+        .btn-dot-4 {
+          top: 12px;
+          left: 6px;
+        }
+        .btn-dot-5 {
+          top: 16px;
+          left: 6px;
+        }
+        .btn-dot-6 {
+          top: 20px;
+          left: 6px;
+        }
+        .btn-dot-7 {
+          top: 16px;
+          left: 2px;
+        }
+        .btn-dot-8 {
+          top: 12px;
+          left: -2px;
+        }
+        .btn-dot-9 {
+          top: 16px;
+          left: 10px;
+        }
+        .btn-dot-10 {
+          top: 12px;
+          left: 14px;
+        }
+      }
+    }
+  }
+
+  .btn-dots {
+    position: absolute;
+    top: 12px;
+    left: 10px;
+    width: 8px;
+    opacity: 0;
+    transition: all 0.25s ease-in;
+
+    .btn-dot {
+      width: 2px;
+      height: 2px;
+      background-color: rebeccapurple;
+      position: absolute;
+      transition: all 0.25s ease-in;
+
+      &.btn-dot-1 {
+        top: 0;
+        left: 0;
+      }
+      &.btn-dot-2 {
+        top: 0;
+        left: 6px;
+      }
+      &.btn-dot-3 {
+        top: 8px;
+        left: 0;
+      }
+      &.btn-dot-4 {
+        top: 12px;
+        left: 20px;
+      }
+      &.btn-dot-5 {
+        top: 22px;
+        left: 6px;
+      }
+      &.btn-dot-6 {
+        top: 28px;
+        left: 6px;
+      }
+      &.btn-dot-7 {
+        top: 16px;
+        left: -20px;
+      }
+      &.btn-dot-8 {
+        top: 12px;
+        left: 6px;
+      }
+      &.btn-dot-9 {
+        top: 16px;
+        left: 2px;
+      }
+      &.btn-dot-10 {
+        top: 12px;
+        left: 4px;
+      }
+    }
+  }
+}

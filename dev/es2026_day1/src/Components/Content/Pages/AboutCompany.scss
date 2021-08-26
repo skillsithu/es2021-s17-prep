@@ -1,0 +1,99 @@
+@import "../../../variables";
+
+.about {
+  .text-container {
+    padding: 0.5rem;
+
+    ol li:hover {
+      text-decoration: underline;
+      cursor: pointer;
+    }
+  }
+
+  .img-container {
+    text-align: right;
+    position: relative;
+
+    .city {
+      height: 2.1vw;
+      width: 2.1vw;
+      position: absolute;
+      background-color: crimson;
+
+      &.marked::before {
+        position: absolute;
+        content: " ";
+        display: block;
+        background-color: crimson;
+        left: -50%;
+        top: -50%;
+        width: 200%;
+        height: 200%;
+        opacity: 0.7;
+        animation: city-marker 1s linear infinite;
+        border-radius: 1px;
+      }
+
+      @keyframes city-marker {
+        from {
+          width: 100%;
+          height: 100%;
+          left: 0;
+          top: 0;
+          opacity: 0.7;
+          transform: rotate(0deg);
+        }
+        to {
+          left: -50%;
+          top: -50%;
+          width: 200%;
+          height: 200%;
+          opacity: 0;
+          transform: rotate(100deg);
+        }
+      }
+    }
+    .city-a {
+      right: 47.1vw;
+      bottom: 55.8vw;
+    }
+    .city-b {
+      right: 55.4vw;
+      bottom: 50.4vw;
+    }
+    .city-c {
+      right: 58.2vw;
+      bottom: 58.7vw;
+    }
+
+    img {
+      width: 100vw;
+      height: 100vw;
+    }
+
+    $breakpoints: map-values($grid-breakpoints);
+    @media (min-width: nth($breakpoints, 2)) {
+      .city {
+        height: 1.3vw;
+        width: 1.3vw;
+      }
+      .city-a {
+        right: 28.5vw;
+        bottom: 33.5vw;
+      }
+      .city-b {
+        right: 33.5vw;
+        bottom: 30.2vw;
+      }
+      .city-c {
+        right: 35.2vw;
+        bottom: 35.2vw;
+      }
+
+      img {
+        width: 60vw;
+        height: 60vw;
+      }
+    }
+  }
+}

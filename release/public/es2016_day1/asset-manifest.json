@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "http://localhost/es2016_day1/static/css/main.02c1b5f7.chunk.css",
+    "main.js": "http://localhost/es2016_day1/static/js/main.3d604b91.chunk.js",
+    "main.js.map": "http://localhost/es2016_day1/static/js/main.3d604b91.chunk.js.map",
+    "runtime-main.js": "http://localhost/es2016_day1/static/js/runtime-main.7d410f52.js",
+    "runtime-main.js.map": "http://localhost/es2016_day1/static/js/runtime-main.7d410f52.js.map",
+    "static/js/2.efb9ff96.chunk.js": "http://localhost/es2016_day1/static/js/2.efb9ff96.chunk.js",
+    "static/js/2.efb9ff96.chunk.js.map": "http://localhost/es2016_day1/static/js/2.efb9ff96.chunk.js.map",
+    "static/js/3.2df37800.chunk.js": "http://localhost/es2016_day1/static/js/3.2df37800.chunk.js",
+    "static/js/3.2df37800.chunk.js.map": "http://localhost/es2016_day1/static/js/3.2df37800.chunk.js.map",
+    "index.html": "http://localhost/es2016_day1/index.html",
+    "static/css/main.02c1b5f7.chunk.css.map": "http://localhost/es2016_day1/static/css/main.02c1b5f7.chunk.css.map",
+    "static/js/2.efb9ff96.chunk.js.LICENSE.txt": "http://localhost/es2016_day1/static/js/2.efb9ff96.chunk.js.LICENSE.txt",
+    "static/media/TabItem.scss": "http://localhost/es2016_day1/static/media/AlegreyaSans-Regular.0661bf20.ttf",
+    "static/media/attraction1.57d2018c.jpg": "http://localhost/es2016_day1/static/media/attraction1.57d2018c.jpg",
+    "static/media/attraction2.ae1b871e.jpg": "http://localhost/es2016_day1/static/media/attraction2.ae1b871e.jpg",
+    "static/media/attraction3.76a24f82.jpeg": "http://localhost/es2016_day1/static/media/attraction3.76a24f82.jpeg",
+    "static/media/attraction4.5f851400.jpg": "http://localhost/es2016_day1/static/media/attraction4.5f851400.jpg",
+    "static/media/Banner.scss": "http://localhost/es2016_day1/static/media/banner.005ac748.jpeg",
+    "static/media/carpenter.dc955f18.jpeg": "http://localhost/es2016_day1/static/media/carpenter.dc955f18.jpeg",
+    "static/media/copywriter.bf8975d6.jpeg": "http://localhost/es2016_day1/static/media/copywriter.bf8975d6.jpeg",
+    "static/media/financial-manager.acbd6a33.jpeg": "http://localhost/es2016_day1/static/media/financial-manager.acbd6a33.jpeg",
+    "static/media/mobile-app-developer.abb7a066.jpeg": "http://localhost/es2016_day1/static/media/mobile-app-developer.abb7a066.jpeg",
+    "static/media/park-helper.3f820ed4.jpeg": "http://localhost/es2016_day1/static/media/park-helper.3f820ed4.jpeg",
+    "static/media/promotion.d4bf2ec2.jpg": "http://localhost/es2016_day1/static/media/promotion.d4bf2ec2.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7d410f52.js",
+    "static/js/2.efb9ff96.chunk.js",
+    "static/css/main.02c1b5f7.chunk.css",
+    "static/js/main.3d604b91.chunk.js"
+  ]
+}

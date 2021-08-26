@@ -1,0 +1,60 @@
+.pass {
+  height: 100px;
+  display: flex;
+  font-weight: bold;
+  font-size: 1.25rem;
+  position: relative;
+
+  .pass-name {
+    position: absolute;
+    top: 55px;
+    left: 15px;
+  }
+  .pass-start {
+    background-image: url("../../../../img/pass.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 183px;
+    min-width: 183px;
+    max-width: 183px;
+  }
+  .pass-middle {
+    background-image: url("../../../../img/pass_middle.png");
+    background-size: contain;
+    background-repeat: repeat-x;
+    height: 100%;
+    min-width: 11px;
+    flex: 1;
+  }
+  .pass-end {
+    background-image: url("../../../../img/pass_end.png");
+    background-size: contain;
+    background-repeat: repeat-x;
+    height: 100%;
+    width: 13px;
+    min-width: 13px;
+    max-width: 13px;
+  }
+
+  &.fastpass {
+    .pass-name {
+      color: white;
+    }
+    .pass-start {
+      background-image: url("../../../../img/fastpass.png");
+      width: 119px;
+      min-width: 119px;
+      max-width: 119px;
+    }
+    .pass-middle {
+      background-image: url("../../../../img/fastpass_middle.png");
+    }
+    .pass-end {
+      background-image: url("../../../../img/fastpass_end.png");
+      width: 183px;
+      min-width: 183px;
+      max-width: 183px;
+    }
+  }
+}

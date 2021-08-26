@@ -1,0 +1,155 @@
+@import "../../../../variables";
+
+.tab-item {
+  flex: 1;
+  padding-right: 0.25rem;
+  font-size: 0.9rem;
+  font-weight: bold;
+  border-right: 0.25rem solid;
+  width: 200px;
+
+  &:hover,
+  &.selected {
+    cursor: pointer;
+    border-width: 0.5rem;
+    padding-right: 0;
+
+    img {
+      margin-top: -0.25rem;
+    }
+  }
+
+  $breakpoints: map-values($grid-breakpoints);
+  @media (min-width: nth($breakpoints, 3)) {
+    width: auto;
+    height: 68px;
+    padding-right: 0;
+    padding-bottom: 0.25rem;
+    border-right: 0;
+    border-bottom: 0.25rem solid;
+
+    &:hover,
+    &.selected {
+      padding-bottom: 0;
+    }
+  }
+
+  img {
+    margin-right: 0.25rem;
+  }
+
+  .wrapper {
+    padding: 1.25rem 0.5rem;
+    position: relative;
+    width: 100%;
+  }
+
+  .content {
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 3;
+  }
+
+  .background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    opacity: 0.1;
+  }
+
+  &.tab-color-crimson {
+    border-color: crimson;
+
+    &:hover span,
+    &.selected span {
+      color: crimson;
+      filter: brightness(0.8);
+    }
+    &:hover .background,
+    &.selected .background {
+      background-color: crimson;
+    }
+  }
+  &.tab-color-tomato {
+    border-color: tomato;
+
+    &:hover span,
+    &.selected span {
+      color: tomato;
+      filter: brightness(0.8);
+    }
+    &:hover .background,
+    &.selected .background {
+      background-color: tomato;
+    }
+  }
+  &.tab-color-gold {
+    border-color: gold;
+
+    &:hover span,
+    &.selected span {
+      color: gold;
+      filter: brightness(0.8);
+    }
+    &:hover .background,
+    &.selected .background {
+      background-color: gold;
+    }
+  }
+  &.tab-color-yellowgreen {
+    border-color: yellowgreen;
+
+    &:hover span,
+    &.selected span {
+      color: yellowgreen;
+      filter: brightness(0.8);
+    }
+    &:hover .background,
+    &.selected .background {
+      background-color: yellowgreen;
+    }
+  }
+  &.tab-color-olivedrab {
+    border-color: olivedrab;
+
+    &:hover span,
+    &.selected span {
+      color: olivedrab;
+      filter: brightness(0.8);
+    }
+    &:hover .background,
+    &.selected .background {
+      background-color: olivedrab;
+    }
+  }
+  &.tab-color-skyblue {
+    border-color: skyblue;
+
+    &:hover span,
+    &.selected span {
+      color: skyblue;
+      filter: brightness(0.8);
+    }
+    &:hover .background,
+    &.selected .background {
+      background-color: skyblue;
+    }
+  }
+  &.tab-color-rebeccapurple {
+    border-color: rebeccapurple;
+
+    &:hover span,
+    &.selected span {
+      color: rebeccapurple;
+      filter: brightness(0.8);
+    }
+    &:hover .background,
+    &.selected .background {
+      background-color: rebeccapurple;
+    }
+  }
+}
