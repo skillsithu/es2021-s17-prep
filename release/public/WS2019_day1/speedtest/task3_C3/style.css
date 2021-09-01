@@ -1,0 +1,19 @@
+/*CSS RESET*/
+
+*{
+	margin: 0;
+	padding: 0;
+}	
+
+/*PUT YOUR CODE CSS HERE*/
+
+#wrapper {
+	margin: 30px auto;
+	width: 600px;
+}
+canvas {
+	border: 1px solid gold
+}
+button {
+	padding: 0.5rem;
+}

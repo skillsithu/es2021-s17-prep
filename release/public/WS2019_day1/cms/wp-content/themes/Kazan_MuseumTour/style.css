@@ -1,0 +1,213 @@
+/*
+Theme Name: Kazan_MuseumTour
+Template: blankslate
+Text Domain: Kazan_MuseumTour
+*/
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;vertical-align:baseline}html{scroll-behavior:smooth}body{line-height:1.25}a{text-decoration-skip-ink:auto}a[href^="tel"]{color:inherit;text-decoration:none}button{outline:0}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}q{display:inline;font-style:italic}q:before{content:'"';font-style:normal}q:after{content:'"';font-style:normal}textarea,input[type="text"],input[type="button"],input[type="submit"],input[type="reset"],input[type="search"],input[type="password"]{-webkit-appearance:none;appearance:none;border-radius:0}input[type="search"]{-webkit-appearance:textfield}table{border-collapse:collapse;border-spacing:0}th,td{padding:2px}big{font-size:120%}small,sup,sub{font-size:80%}sup{vertical-align:super}sub{vertical-align:sub}dd{margin-left:20px}kbd,tt{font-family:courier;font-size:12px}ins{text-decoration:underline}del,strike,s{text-decoration:line-through}dt{font-weight:bold}address,cite,var{font-style:italic}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+.sticky{}.bypostauthor{}.wp-caption{}.wp-caption-text{}.gallery-caption{}.alignright{}.alignleft{}.aligncenter{}
+.screen-reader-text{border:0;clip:rect(1px,1px,1px,1px);-webkit-clip-path:inset(50%);clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute!important;width:1px;word-wrap:normal!important;word-break:normal}
+.screen-reader-text:focus{background-color:#f7f7f7;border-radius:3px;box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;-webkit-clip-path:none;clip-path:none;color:#007acc;display:block;font-size:14px;font-size:.875rem;font-weight:700;height:auto;right:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}
+.skip-link{left:-9999rem;top:2.5rem;z-index:999999999;text-decoration:underline}
+.skip-link:focus{display:block;left:6px;top:7px;font-size:14px;font-weight:600;text-decoration:none;line-height:normal;padding:15px 23px 14px;z-index:100000;right:auto}
+.visually-hidden:not(:focus):not(:active), .form-allowed-tags:not(:focus):not(:active){position:absolute !important;height:1px;width:1px;overflow:hidden;clip:rect(1px 1px 1px 1px);clip:rect(1px, 1px, 1px, 1px);white-space:nowrap}
+
+@font-face {
+    font-family: "Baskerville Old Face";
+    src: url("http://localhost/WS2019_day1/cms/wp-content/themes/Kazan_MuseumTour/BASKVILL.TTF") format("truetype");
+}
+
+html, body {
+    font-family: "Baskerville Old Face";
+}
+
+a {
+    color: crimson;
+    text-decoration: none;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 30;
+    width: 100%;
+    background: white;
+    box-shadow: 1px 1px 10px rgba(0,0,0,0.1);
+}
+#site-description {
+    margin-top: 0.25rem;
+    font-size: 1.25rem;
+}
+
+#menu-primary {
+    display: flex;
+    font-size: 1.125rem;
+}
+#menu-primary li {
+    margin: 0.5rem;
+}
+.sub-menu {
+    display: none;
+    position: absolute;
+    background-color: white;
+    box-shadow: 1px 8px 10px rgba(0,0,0,0.2);
+    border: 1px solid rgba(0,0,0,0.1);
+    margin-left: -0.5rem;
+    margin-right: 0.5rem;
+}
+.menu-item:hover > .sub-menu {
+    display: block;
+}
+
+#container {
+    display: flex;
+}
+#container main, #container aside {
+    padding: 1rem;
+}
+
+article {
+    background-color: white;
+    border: 1px solid rgba(0,0,0,0.1);
+    box-shadow: 1px 1px 10px rgba(0,0,0,0.1);
+    padding: 1.25rem;
+    margin-bottom: 1rem;
+}
+article img {
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.content-index {
+    position: relative;
+    margin-right: 1rem;
+}
+.content-index::before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(http://localhost/WS2019_day1/cms/wp-content/uploads/2021/08/museum-of-islamic-culture-3.jpg);
+    background-size: cover;
+}
+.content-index > main {
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 400px;
+}
+.content-index > h1 {
+    position: relative;
+    margin: 2rem 2rem 0 2rem;
+    opacity: 0.8;
+    color: #212121;
+}
+.content-index article {
+    position: relative;
+    width: calc(50% - 2rem);
+    opacity: 0.95;
+    margin: 1rem;
+    border-radius: 0.5rem;
+}
+@media (max-width: 599px) {
+    .content-index article {
+        width: 100%;
+    }
+}
+@media (max-width: 782px) {
+    #container {
+        flex-wrap: wrap;
+    }
+    .content-index {
+        margin-right: 0;
+    }
+    aside {
+        width: 100%;
+    }
+}
+aside {
+    min-width: 300px;
+}
+aside h2 {
+    margin: 2rem 0;
+}
+article h3 {
+    margin-top: 0.5rem;
+}
+.entry-meta {
+    margin-bottom: 0.5rem;
+}
+
+.wp-block-columns.mobile-no-wrap {
+    flex-wrap: nowrap !important;
+}
+
+h1.entry-title {
+    margin-bottom: 1rem;
+}
+
+#footer {
+    margin: 2rem;
+    text-align: center;
+}
+
+main.highlighted {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+main.highlighted article {
+    opacity: 0.95;
+    min-height: 65vh;
+}
+
+.latestn {
+    margin-top: 2rem;
+}
+.highlighted .wp-block-post-template {
+    background-color: #fcfcfc;
+    box-shadow: 1px 1px 10px rgba(0,0,0,0.2);
+    padding: 1rem;
+    margin: 1rem 0;
+}
+h4.wp-block-post-title {
+    margin-bottom: 0.5rem;
+}
+
+aside h3 {
+    margin-bottom: 0.25rem;
+}
+aside form p {
+    margin-bottom: 0.5rem;
+}
+aside input, aside textarea {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 0.85rem;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 0.25rem !important;
+    margin-bottom: 0.25rem;
+}
+aside form input[type="submit"] {
+    background: white;
+    appearance: auto;
+    cursor: pointer;
+}
+aside form input[type="submit"]:hover {
+    background-color: #efefef;
+}
+
+#menu-social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#menu-social > li {
+    margin: 1rem 0.5rem;
+}

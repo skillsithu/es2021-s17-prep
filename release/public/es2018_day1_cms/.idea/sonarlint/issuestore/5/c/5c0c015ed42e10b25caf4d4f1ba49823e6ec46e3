@@ -1,0 +1,76 @@
+
+J	php:S1135Í"4Complete the task associated to this "TODO" comment.(¾ÿä€
+S	php:S1142">This function has 5 returns, which is more than the 3 allowed.(•…‹ø
+Y	php:S1142ç">This function has 5 returns, which is more than the 3 allowed.(üÑıÌûÿÿÿÿ
+Z	php:S1142‚"?This function has 13 returns, which is more than the 3 allowed.(ˆ›Ö¯üÿÿÿÿ
+T	php:S1142Ä">This function has 7 returns, which is more than the 3 allowed.(Ÿ¥åÔ
+T	php:S1142µ">This function has 4 returns, which is more than the 3 allowed.(‡æ¤‰
+T	php:S1142´">This function has 4 returns, which is more than the 3 allowed.( œ‡æ
+Y	php:S1142">This function has 5 returns, which is more than the 3 allowed.(Åª›‰üÿÿÿÿ
+Y	php:S1142è">This function has 6 returns, which is more than the 3 allowed.(óÿ­¢ùÿÿÿÿ
+T	php:S1142«">This function has 4 returns, which is more than the 3 allowed.(û¿ÎÆ
+T	php:S1142ò">This function has 7 returns, which is more than the 3 allowed.(¼¤âƒ
+T	php:S1142ì">This function has 4 returns, which is more than the 3 allowed.(¢ˆî»
+T	php:S1142´$">This function has 4 returns, which is more than the 3 allowed.(¯„×¶
+Y	php:S1142Ñ+">This function has 4 returns, which is more than the 3 allowed.(¼¥öÂıÿÿÿÿ
+Y	php:S1142œ,">This function has 6 returns, which is more than the 3 allowed.(ù™ÁĞûÿÿÿÿ
+Z	php:S1142ş."?This function has 11 returns, which is more than the 3 allowed.(øâŠ‰üÿÿÿÿ
+Y	php:S1142í7">This function has 7 returns, which is more than the 3 allowed.(ˆÛæ¹ùÿÿÿÿ
+T	php:S1142:">This function has 6 returns, which is more than the 3 allowed.(ºû±è
+T	php:S1142†>">This function has 4 returns, which is more than the 3 allowed.(ÎÁ†˜
+[php:S112Æ"FDefine and throw a dedicated exception instead of using a generic one.(¾¼—Ö
+o	php:S3776Â"TRefactor this function to reduce its Cognitive Complexity from 25 to the 15 allowed.(†ë¹°şÿÿÿÿ
+o	php:S3776‚"TRefactor this function to reduce its Cognitive Complexity from 27 to the 15 allowed.(ˆ›Ö¯üÿÿÿÿ
+o	php:S3776Ê"TRefactor this function to reduce its Cognitive Complexity from 61 to the 15 allowed.(‹Ë™‡øÿÿÿÿ
+j	php:S3776ú"TRefactor this function to reduce its Cognitive Complexity from 17 to the 15 allowed.(òÉîÎ
+j	php:S3776Â"TRefactor this function to reduce its Cognitive Complexity from 26 to the 15 allowed.(­™Ìî
+j	php:S3776µ"TRefactor this function to reduce its Cognitive Complexity from 18 to the 15 allowed.(‡æ¤‰
+j	php:S3776´"TRefactor this function to reduce its Cognitive Complexity from 16 to the 15 allowed.( œ‡æ
+o	php:S3776¹"TRefactor this function to reduce its Cognitive Complexity from 30 to the 15 allowed.(ïÏ¢ûÿÿÿÿ
+o	php:S3776³"TRefactor this function to reduce its Cognitive Complexity from 45 to the 15 allowed.(´˜ßÑûÿÿÿÿ
+i	php:S3776¤"TRefactor this function to reduce its Cognitive Complexity from 45 to the 15 allowed.(ºÅA
+j	php:S3776ì"TRefactor this function to reduce its Cognitive Complexity from 17 to the 15 allowed.(¢ˆî»
+o	php:S3776Ÿ"TRefactor this function to reduce its Cognitive Complexity from 23 to the 15 allowed.(õ­ùÿÿÿÿ
+o	php:S3776Ğ"TRefactor this function to reduce its Cognitive Complexity from 34 to the 15 allowed.(¹ˆ„ˆÿÿÿÿÿ
+o	php:S3776Ä"TRefactor this function to reduce its Cognitive Complexity from 29 to the 15 allowed.(¢Êìúÿÿÿÿ
+o	php:S3776ş."TRefactor this function to reduce its Cognitive Complexity from 23 to the 15 allowed.(øâŠ‰üÿÿÿÿ
+j	php:S3776®/"TRefactor this function to reduce its Cognitive Complexity from 51 to the 15 allowed.(’ú™‡
+i	php:S3776ó3"TRefactor this function to reduce its Cognitive Complexity from 21 to the 15 allowed.(¦ä@
+j	php:S3776:"TRefactor this function to reduce its Cognitive Complexity from 21 to the 15 allowed.(ºû±è
+j	php:S3776†>"TRefactor this function to reduce its Cognitive Complexity from 45 to the 15 allowed.(ÎÁ†˜
+h	php:S1871ò"MThis branch's code block is the same as the block for the branch on line 880.(öë ©şÿÿÿÿ
+<	php:S1110è"!Remove these useless parentheses.(ÿõâèùÿÿÿÿ
+c	php:S1192Ø"HDefine a constant instead of duplicating this literal "http://" 4 times.(Œ‚Éüÿÿÿÿ
+h	php:S1192í/"RDefine a constant instead of duplicating this literal "<optgroup label="" 3 times.(ØÌ¾‡
+g	php:S1192¨""QDefine a constant instead of duplicating this literal "\xf0\x9f\x98\xaf" 3 times.(›è„Ù
+l	php:S1192´""QDefine a constant instead of duplicating this literal "\xf0\x9f\x98\xae" 3 times.(Û‹âˆüÿÿÿÿ
+f	php:S1192"KDefine a constant instead of duplicating this literal "\\A..Za..z" 6 times.(¬ƒ¾şÿÿÿÿ
+`	php:S1192İ/"JDefine a constant instead of duplicating this literal "</option>" 4 times.(îúàÍ
+a	php:S1192É"KDefine a constant instead of duplicating this literal "image/webp" 3 times.(İÑº–
+_	php:S11920"IDefine a constant instead of duplicating this literal "<option " 3 times.(ƒ€‰î
+f	php:S1192Œ"PDefine a constant instead of duplicating this literal "application/csv" 3 times.(îÔÖü
+^	php:S11920"HDefine a constant instead of duplicating this literal "value="" 3 times.(ƒ€‰î
+k	php:S1192ÿ/"UDefine a constant instead of duplicating this literal "selected="selected" " 3 times.(ØØÙ
+t	php:S1192ê"YDefine a constant instead of duplicating this literal "application/octet-stream" 3 times.(Ï‰›îÿÿÿÿÿ
+b	php:S1192Å"LDefine a constant instead of duplicating this literal "unit symbol" 6 times.(ğÁ÷˜
+v	php:S1192¶("[Define a constant instead of duplicating this literal "<code>__construct()</code>" 4 times.(¾ñâÅúÿÿÿÿ
+­	php:S1192á'"–Define a constant instead of duplicating this literal "%1$s is <strong>deprecated</strong> since version %2$s with no alternative available." 5 times.(¤øíò
+l	php:S1192©""QDefine a constant instead of duplicating this literal "\xf0\x9f\x99\x82" 3 times.( »ñàÿÿÿÿÿ
+g	php:S1192·""QDefine a constant instead of duplicating this literal "\xf0\x9f\x99\x81" 3 times.(úÕßç
+g	php:S1192…0"LDefine a constant instead of duplicating this literal "</optgroup>" 3 times.(şôÎÄıÿÿÿÿ
+^	php:S1192‹"IDefine a constant instead of duplicating this literal "text/csv" 3 times.(÷„—R
+l	php:S1192¥""QDefine a constant instead of duplicating this literal "\xf0\x9f\x98\x90" 3 times.(ÉÆ›íûÿÿÿÿ
+_	php:S1192Û"IDefine a constant instead of duplicating this literal "https://" 4 times.(¸ŒêÎ
+g	php:S1192²""QDefine a constant instead of duplicating this literal "\xf0\x9f\x98\x89" 3 times.(‡°½
+f	php:S1192…"KDefine a constant instead of duplicating this literal "text/plain" 5 times.(¶õ—”úÿÿÿÿ
+l	php:S1192­""QDefine a constant instead of duplicating this literal "\xf0\x9f\x98\x80" 3 times.(ÊÓÿ°şÿÿÿÿ
+l	php:S1192°""QDefine a constant instead of duplicating this literal "\xf0\x9f\x98\x9b" 3 times.(ØÃëºøÿÿÿÿ
+l	php:S1192ª""QDefine a constant instead of duplicating this literal "\xf0\x9f\x98\x95" 3 times.(« âøÿÿÿÿ
+¦	php:S1192Ö'"ŠDefine a constant instead of duplicating this literal "%1$s is <strong>deprecated</strong> since version %2$s! Use %3$s instead." 5 times.(îšë˜ùÿÿÿÿ
+f	php:S1192¶""QDefine a constant instead of duplicating this literal "\xf0\x9f\x98\xa1" 3 times.(§è›N
+w	php:S1488z"bImmediately return this expression instead of assigning it to the temporary variable "$tz_offset".(ôÃ»
+~	php:S1488Á<"cImmediately return this expression instead of assigning it to the temporary variable "$annotation".(ƒòµßøÿÿÿÿ
+O	php:S1172«9"4Remove the unused function parameter "$option_name".(íÃ™Ôùÿÿÿÿ
+1	php:S3626Ù	"Remove this redundant jump.(ÉŠ©ƒ
+dphp:S127—"ORefactor the code to avoid updating the loop counter "$i" within the loop body.(›€û“
+Qphp:S131¦"7Add a "case default" clause to this "switch" statement.(êâÛøÿÿÿÿ

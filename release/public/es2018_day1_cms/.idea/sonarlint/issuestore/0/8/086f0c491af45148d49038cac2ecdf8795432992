@@ -1,0 +1,12 @@
+
+T	php:S1142–">This function has 5 returns, which is more than the 3 allowed.(¥Ü…Ü
+T	php:S1142Î">This function has 4 returns, which is more than the 3 allowed.(¯ıŠÉ
+Y	php:S1142»">This function has 4 returns, which is more than the 3 allowed.(”ê—êüÿÿÿÿ
+Y	php:S1142ò">This function has 4 returns, which is more than the 3 allowed.(¸„ûıÿÿÿÿ
+j	php:S3776‚"TRefactor this function to reduce its Cognitive Complexity from 40 to the 15 allowed.(…áÙÚ
+j	php:S3776“"TRefactor this function to reduce its Cognitive Complexity from 23 to the 15 allowed.(ôéÄ
+h	php:S1871¤"MThis branch's code block is the same as the block for the branch on line 162.(Ñúê¹øÿÿÿÿ
+a	php:S1192†"FDefine a constant instead of duplicating this literal "&#93;" 3 times.(Ô˜öûÿÿÿÿ
+a	php:S1192…"FDefine a constant instead of duplicating this literal "&#91;" 3 times.(½²Ùêúÿÿÿÿ
+{	php:S1488à"`Immediately return this expression instead of assigning it to the temporary variable "$content".(æ»òÿÿÿÿÿ
+J	php:S1066«"/Merge this if statement with the enclosing one.(§î¬¡ÿÿÿÿÿ

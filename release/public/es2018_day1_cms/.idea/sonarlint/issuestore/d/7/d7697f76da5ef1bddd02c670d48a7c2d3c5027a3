@@ -1,0 +1,62 @@
+
+ƒ	Web:S4645Ø,"hA </script> was found without a relating opening <script> tag. This may be caused by nested script tags.(ãõ§üÿÿÿÿ
+O	php:S1135¢"4Complete the task associated to this "TODO" comment.(¬‡’Íøÿÿÿÿ
+O	php:S1135¤"4Complete the task associated to this "TODO" comment.(„Æü¥şÿÿÿÿ
+Cphp:S108ù")Either remove or fill this block of code.(¤Ğ¡Üúÿÿÿÿ
+Y	php:S1142É">This function has 6 returns, which is more than the 3 allowed.(»„Œáüÿÿÿÿ
+T	php:S1142Í">This function has 9 returns, which is more than the 3 allowed.(Š•Œ·
+Y	php:S1142‡">This function has 4 returns, which is more than the 3 allowed.(™À»İøÿÿÿÿ
+T	php:S1142£">This function has 8 returns, which is more than the 3 allowed.(‚×¨
+Y	php:S1142Ô!">This function has 4 returns, which is more than the 3 allowed.(ï˜—êÿÿÿÿÿ
+T	php:S1142’-">This function has 4 returns, which is more than the 3 allowed.(ÒĞ©ù
+h	php:S3776%"TRefactor this function to reduce its Cognitive Complexity from 59 to the 15 allowed.(¹Ö¦
+j	php:S3776¾"TRefactor this function to reduce its Cognitive Complexity from 24 to the 15 allowed.(Œœµ¶
+j	php:S3776º"TRefactor this function to reduce its Cognitive Complexity from 16 to the 15 allowed.(ıè÷Ô
+j	php:S3776ñ"TRefactor this function to reduce its Cognitive Complexity from 19 to the 15 allowed.(á»Íæ
+j	php:S3776¦"TRefactor this function to reduce its Cognitive Complexity from 18 to the 15 allowed.(Á¬ÉÅ
+o	php:S3776ú"TRefactor this function to reduce its Cognitive Complexity from 28 to the 15 allowed.(Ñ¾”˜şÿÿÿÿ
+i	php:S3776Ã"TRefactor this function to reduce its Cognitive Complexity from 20 to the 15 allowed.(ˆÇÒp
+o	php:S3776­"TRefactor this function to reduce its Cognitive Complexity from 50 to the 15 allowed.(ìã’Ïüÿÿÿÿ
+j	php:S3776€"TRefactor this function to reduce its Cognitive Complexity from 22 to the 15 allowed.(öş¬
+j	php:S3776›"TRefactor this function to reduce its Cognitive Complexity from 17 to the 15 allowed.(ıÏ—§
+o	php:S3776"TRefactor this function to reduce its Cognitive Complexity from 27 to the 15 allowed.(›Ñ…şÿÿÿÿÿ
+o	php:S3776Ô!"TRefactor this function to reduce its Cognitive Complexity from 28 to the 15 allowed.(ï˜—êÿÿÿÿÿ
+o	php:S3776©$"TRefactor this function to reduce its Cognitive Complexity from 89 to the 15 allowed.(§Ş„ƒùÿÿÿÿ
+j	php:S3776¢'"TRefactor this function to reduce its Cognitive Complexity from 25 to the 15 allowed.(Š¨ø›
+j	php:S3776’-"TRefactor this function to reduce its Cognitive Complexity from 30 to the 15 allowed.(ÒĞ©ù
+o	php:S3776ñ-"TRefactor this function to reduce its Cognitive Complexity from 16 to the 15 allowed.(£¿öåøÿÿÿÿ
+^	php:S1192Ê"HDefine a constant instead of duplicating this literal "http://" 4 times.(è¾™¡
+\	php:S1192¸"FDefine a constant instead of duplicating this literal "< !--" 3 times.(Ïää¨
+g	php:S1192É"LDefine a constant instead of duplicating this literal "Y-m-d H:i:s" 4 times.(¯”‰Ïşÿÿÿÿ
+b	php:S1192T"HDefine a constant instead of duplicating this literal "&#8220;" 4 times.(úºêúÿÿÿÿ
+]	php:S1192V"HDefine a constant instead of duplicating this literal "&#8221;" 3 times.(¾²Ğ¼
+b	php:S1192ü"GDefine a constant instead of duplicating this literal "&#038;" 5 times.(äáÉïøÿÿÿÿ
+]	php:S1192Ü"GDefine a constant instead of duplicating this literal "&#039;" 4 times.(äú±
+c	php:S1192‰"HDefine a constant instead of duplicating this literal "&#8230;" 3 times.(Ÿ›Ù©ÿÿÿÿÿ
+_	php:S1192¤"IDefine a constant instead of duplicating this literal "&hellip;" 3 times.(¢Öª
+a	php:S1192 "FDefine a constant instead of duplicating this literal "&amp;" 4 times.(Õ‰¥Êıÿÿÿÿ
+]	php:S1192É"GDefine a constant instead of duplicating this literal "</pre>" 3 times.(Í°º‡
+h	php:S1192©"MDefine a constant instead of duplicating this literal "nofollow ugc" 3 times.(ş×©¼ÿÿÿÿÿ
+]	php:S1192f"HDefine a constant instead of duplicating this literal "&#8211;" 4 times.(è«²
+\	php:S1192h"HDefine a constant instead of duplicating this literal "&#8212;" 4 times.(ãŒ„
+]	php:S1192a"HDefine a constant instead of duplicating this literal "&#8216;" 3 times.( °‰
+]	php:S1192Y"HDefine a constant instead of duplicating this literal "&#8217;" 4 times.(’³Å¯
+t	php:S1488Ø"^Immediately return this expression instead of assigning it to the temporary variable "$regex".(±®‡€
+H	php:S1481”."-Remove this unused "$charset" local variable.(â€èéşÿÿÿÿ
+7	php:S1116Ä"Remove this empty statement.(ôŸìúÿÿÿÿ
+7	php:S1116Û"Remove this empty statement.(ôŸìúÿÿÿÿ
+M	php:S1479¯$"8Reduce the number of switch cases from 53 to at most 30.(ì‡ö]
+H	php:S1172²"2Remove the unused function parameter "$raw_title".(¬ù¢­
+1	php:S3626÷"Remove this redundant jump.(ÉŠ©ƒ
+1	php:S3626Œ"Remove this redundant jump.(ÉŠ©ƒ
+1	php:S3626‚"Remove this redundant jump.(ÉŠ©ƒ
+J	php:S1066…"/Merge this if statement with the enclosing one.(Õ×Óûÿÿÿÿ
+E	php:S1066„"/Merge this if statement with the enclosing one.(Úƒ¨Ë
+R	php:S1155	"7Use empty() to check whether the array is empty or not.(Ìñ­ıùÿÿÿÿ
+R	php:S1155ğ"7Use empty() to check whether the array is empty or not.(¦¤¹§ûÿÿÿÿ
+iphp:S127…"ORefactor the code to avoid updating the loop counter "$i" within the loop body.(ò™ËÒıÿÿÿÿ
+php:S138%"{This function "wptexturize" has 159 lines, which is greater than the 150 lines authorized. Split it into smaller functions.(¹Ö¦
+˜php:S138±"~This function "remove_accents" has 360 lines, which is greater than the 150 lines authorized. Split it into smaller functions.(Ñ€´­úÿÿÿÿ
+‘php:S138×"wThis function "ent2ncr" has 265 lines, which is greater than the 150 lines authorized. Split it into smaller functions.(ª Ïåùÿÿÿÿ
+™php:S138©$"This function "sanitize_option" has 219 lines, which is greater than the 150 lines authorized. Split it into smaller functions.(§Ş„ƒùÿÿÿÿ
+Kphp:S131¯$"7Add a "case default" clause to this "switch" statement.(ì‡ö]

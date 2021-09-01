@@ -1,0 +1,16 @@
+
+iphp:S101"URename class "WPCF7_ContactForm" to match the regular expression ^[A-Z][a-zA-Z0-9]*$.(öŽšã
+xphp:S115"_Rename this constant "post_type" to match the regular expression ^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$.(Æ€ä°ùÿÿÿÿ
+k	php:S1192«"PDefine a constant instead of duplicating this literal "_wpcf7_unit_tag" 3 times.(ÜÜ’»øÿÿÿÿ
+O	php:S3801¶"4Refactor this function to use "return" consistently.(·—²¥þÿÿÿÿ
+u	php:S1488É"_Immediately return this expression instead of assigning it to the temporary variable "$output".(ïÄš†
+z	php:S1488î"_Immediately return this expression instead of assigning it to the temporary variable "$result".(™ÎÖ¨ÿÿÿÿÿ
+d	php:S1117Ù"NRename "$properties" which has the same name as the field declared at line 14.(Õ¯ßý
+d	php:S1117Ç"IRename "$title" which has the same name as the field declared at line 12.(üÜ„Çûÿÿÿÿ
+‚	php:S1448"mClass "WPCF7_ContactForm" has 48 methods, which is greater than 20 authorized. Split it into smaller classes.(öŽšã
+1	php:S2010w"Replace "or" with "||".(ÏÉ·Úþÿÿÿÿ
+.	php:S2010—"Replace "and" with "&&".(éá¿€
+3	php:S2010Ä"Replace "and" with "&&".(«¬ê±ùÿÿÿÿ
+3	php:S2010í"Replace "and" with "&&".(«¬ê±ùÿÿÿÿ
+-	php:S2010Æ"Replace "or" with "||".(Â°¤ø
+.	php:S2010ì"Replace "and" with "&&".(ôÏäÞ

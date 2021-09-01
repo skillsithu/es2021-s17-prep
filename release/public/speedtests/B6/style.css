@@ -1,0 +1,33 @@
+/*CSS RESET*/
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/*PUT YOUR CSS CODE HERE*/
+
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100vw;
+	height: 100vh;
+}
+#block {
+	width: 0;
+	height: 0;
+	animation: rectangle 2s linear infinite alternate;
+}
+@keyframes rectangle {
+	from {
+		border-bottom: 400px solid skyblue;
+		border-left: 200px solid transparent;
+		border-right: 200px solid transparent;
+	}
+	to {
+		border-bottom: 400px solid gold;
+		border-left: 200px solid gold;
+		border-right: 200px solid gold;
+	}
+}

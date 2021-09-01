@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Speedtest B15</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+	<div id="numbers">
+		<div id="number1"></div>
+		<div id="number2"></div>
+		<div id="number3"></div>
+		<div id="dots">
+			<div class="dot"></div>
+			<div class="dot"></div>
+		</div>
+		<div id="number4"></div>
+		<div id="number5"></div>
+	</div>
+	<div id="control">
+		<button onclick="startTimer()" class="button-a">Start timer</button>
+		<button onclick="stopTimer()" class="button-b">Stop timer</button>
+		<button onclick="resetTimer()" class="button-c">Reset timer</button>
+	</div>
+
+    <script>
+      const template = ({ s1, s2, s3, s4, s5, s6, s7 }) => `
+      <div class="number">
+		<div class="segment-x segment-bg ${s1 && "segment-bg-active"}"></div>
+		<div class="segment-y-c">
+			<div class="segment-y segment-bg ${s2 && "segment-bg-active"}"></div>
+			<div class="segment-y segment-bg ${s3 && "segment-bg-active"}"></div>
+		</div>
+		<div class="segment-x segment-bg ${s4 && "segment-bg-active"}"></div>
+		<div class="segment-y-c">
+			<div class="segment-y segment-bg ${s5 && "segment-bg-active"}"></div>
+			<div class="segment-y segment-bg ${s6 && "segment-bg-active"}"></div>
+		</div>
+		<div class="segment-x segment-bg ${s7 && "segment-bg-active"}"></div>
+      </div>`;
+
+	  const times = [
+		  { s1: true, s2: true, s3: true, s4: false, s5: true, s6: true, s7: true },
+		  { s1: false, s2: false, s3: true, s4: false, s5: false, s6: true, s7: false },
+		  { s1: true, s2: false, s3: true, s4: true, s5: true, s6: false, s7: true },
+		  { s1: true, s2: false, s3: true, s4: true, s5: false, s6: true, s7: true },
+		  { s1: false, s2: true, s3: true, s4: true, s5: false, s6: true, s7: false },
+		  { s1: true, s2: true, s3: false, s4: true, s5: false, s6: true, s7: true },
+		  { s1: true, s2: true, s3: false, s4: true, s5: true, s6: true, s7: true },
+		  { s1: true, s2: false, s3: true, s4: false, s5: false, s6: true, s7: false },
+		  { s1: true, s2: true, s3: true, s4: true, s5: true, s6: true, s7: true },
+		  { s1: true, s2: true, s3: true, s4: true, s5: false, s6: true, s7: true },
+		];
+
+		let time = 0;
+		let stopped = true;
+
+		function setTime() {
+			const ms = time % 60;
+			const s = (time - ms) / 60;
+
+			let seconds, mss;
+			if (s < 10) {
+				seconds = `00${s.toString()}`.split('');
+			} else if (s < 100) {
+				seconds = `0${s.toString()}`.split('');
+			} else {
+				seconds = `${s.toString()}`.split('');
+			}
+
+			if (ms < 10) {
+				mss = `0${ms.toString()}`.split('');
+			} else {
+				mss = `${ms.toString()}`.split('');
+			}
+
+			document.getElementById("number1").innerHTML = template(times[parseInt(seconds[0], 10)]);
+			document.getElementById("number2").innerHTML = template(times[parseInt(seconds[1], 10)]);
+			document.getElementById("number3").innerHTML = template(times[parseInt(seconds[2], 10)]);
+			document.getElementById("number4").innerHTML = template(times[parseInt(mss[0], 10)]);
+			document.getElementById("number5").innerHTML = template(times[parseInt(mss[1], 10)]);
+
+			if (!stopped && time < 99959) {
+				time++;
+				setTimeout(setTime, 1000 / 16.666666666666668);
+			}
+		}
+
+		setTime();
+
+		function startTimer() {
+			if (stopped) {
+				stopped = false;
+				setTime();
+			}
+		}
+
+		function stopTimer() {
+			stopped = true;
+		}
+
+		function resetTimer() {
+			time = 0;
+
+			if (stopped) {
+				setTime();
+			}
+		}
+    </script>
+  </body>
+</html>
