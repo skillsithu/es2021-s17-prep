@@ -1,0 +1,114 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url("Montserrat/Montserrat-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Oswald";
+    src: url("Oswald/Oswald-Regular.ttf") format("truetype");
+}
+
+:root {
+    --k-primary: #317882;
+    --k-dark: #28201B;
+    --k-red: #ED2F3D;
+    --k-red-dark: #d22935;
+    --k-orange: #FB6107;
+    --k-green: #44AF69;
+    --k-yellow: #FCAB10;
+}
+
+html, body {
+    scroll-behavior: smooth;
+}
+
+body {
+    color: var(--k-dark);
+    font-family: "Montserrat";
+}
+
+img {
+    max-width: 100%;
+}
+
+nav img {
+    height: 60px;
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link {
+    color: var(--k-red-dark);
+    border-bottom: 2px solid transparent;
+}
+.navbar-light .navbar-nav .nav-item .nav-link:hover {
+    border-bottom: 2px solid var(--k-orange);
+}
+
+#banner {
+    background-image: url("header.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-family: "Oswald";
+    color: white;
+    text-transform: uppercase;
+    background-color: var(--k-primary);
+    padding: 0.75rem 1.25rem;
+    font-size: 4rem;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+h3 {
+    color: var(--k-red-dark);
+    font-size: 1.375rem;
+    margin-bottom: 1rem;
+}
+
+section {
+    padding: 3rem 0;
+}
+
+section:nth-child(odd) {
+    background-color: #efefef;
+}
+
+.intro-card {
+    padding: 0;
+    margin: 0 1rem;
+    /* border: 1px solid var(--k-green); */
+    border-bottom: 5px solid var(--k-red);
+}
+@media (max-width: 767.98px) {
+    .intro-card:not(:last-child) {
+        margin-bottom: 1rem;
+    }
+}
+
+.intro-card > div {
+    padding: 1rem 1.2rem 0 1.2rem;
+}
+
+footer {
+    font-size: 0.875rem;
+    background-color: var(--k-dark);
+    color: white;
+    padding: 2rem;
+    text-align: center;
+}
+
+.anc {
+    display: block;
+    height: 118px;
+    margin-top: -118px;
+    visibility: hidden;
+}

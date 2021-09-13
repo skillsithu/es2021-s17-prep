@@ -1,7 +1,7 @@
 <?php
 // datastore=auditqueue;
 // created_on=1629709708;
-// updated_on=1629709728;
+// updated_on=1631521842;
 exit(0);
 ?>
 1629709708_2717:"Warning: adMinX, 127.0.0.1; Plugin activated: Sucuri Security - Auditing, Malware Scanner and Hardening (v1.8.28; sucuri-scanner\/sucuri.php)"
@@ -247,3 +247,12 @@ exit(0);
 1629729530_0232:"Warning: adMinX, 127.0.0.1; Post deleted: (multiple entries): Post id: 136,Post author: 1,Post type: revision,Post status: inherit,Post inserted: 2021-08-23 14:37:13,Post modified: 2021-08-23 14:37:13,Post guid: http:\/\/localhost\/ws2017_day1\/?p=136,Post title: Anrealage Spring 2017: Abu Dhabi Fashion Week"
 1629731254_0174:"Notice: adMinX, 127.0.0.1; Image_slider status has been changed; details: ID: 138,Old status: new,New status: auto-draft,Title: Auto Draft"
 1629731275_3706:"Notice: adMinX, 127.0.0.1; Video_gallery_item status has been changed; details: ID: 139,Old status: new,New status: auto-draft,Title: Auto Draft"
+1631521769_9872:"Warning: 127.0.0.1; Post deleted: (multiple entries): Post id: 109,Post author: 1,Post type: image_slider,Post status: auto-draft,Post inserted: 2021-08-23 13:39:32,Post modified: 2021-08-23 13:39:32,Post guid: http:\/\/localhost\/ws2017_day1\/?post_type=image_slider&p=109,Post title: Auto Draft"
+1631521770_1605:"Warning: 127.0.0.1; Post deleted: (multiple entries): Post id: 110,Post author: 1,Post type: image_slider,Post status: auto-draft,Post inserted: 2021-08-23 13:42:56,Post modified: 2021-08-23 13:42:56,Post guid: http:\/\/localhost\/ws2017_day1\/?post_type=image_slider&p=110,Post title: Auto Draft"
+1631521770_2142:"Warning: 127.0.0.1; Post deleted: (multiple entries): Post id: 116,Post author: 1,Post type: image_slider,Post status: auto-draft,Post inserted: 2021-08-23 13:45:06,Post modified: 2021-08-23 13:45:06,Post guid: http:\/\/localhost\/ws2017_day1\/?post_type=image_slider&p=116,Post title: Auto Draft"
+1631521770_2511:"Warning: 127.0.0.1; Post deleted: (multiple entries): Post id: 123,Post author: 1,Post type: image_slider,Post status: auto-draft,Post inserted: 2021-08-23 14:22:38,Post modified: 2021-08-23 14:22:38,Post guid: http:\/\/localhost\/ws2017_day1\/?post_type=image_slider&p=123,Post title: Auto Draft"
+1631521770_2812:"Warning: 127.0.0.1; Post deleted: (multiple entries): Post id: 138,Post author: 1,Post type: image_slider,Post status: auto-draft,Post inserted: 2021-08-23 15:07:33,Post modified: 2021-08-23 15:07:33,Post guid: http:\/\/localhost\/ws2017_day1\/?post_type=image_slider&p=138,Post title: Auto Draft"
+1631521770_3087:"Warning: 127.0.0.1; Post deleted: (multiple entries): Post id: 8,Post author: 1,Post type: page,Post status: auto-draft,Post inserted: 2021-08-23 09:10:30,Post modified: 2021-08-23 09:10:30,Post guid: http:\/\/localhost\/ws2017_day1\/?page_id=8,Post title: Auto Draft"
+1631521770_3412:"Warning: 127.0.0.1; Post deleted: (multiple entries): Post id: 4,Post author: 1,Post type: post,Post status: auto-draft,Post inserted: 2021-08-23 08:53:39,Post modified: 2021-08-23 08:53:39,Post guid: http:\/\/localhost\/ws2017_day1\/?p=4,Post title: Auto Draft"
+1631521770_3909:"Warning: 127.0.0.1; Post deleted: (multiple entries): Post id: 124,Post author: 1,Post type: video_gallery_item,Post status: auto-draft,Post inserted: 2021-08-23 14:22:56,Post modified: 2021-08-23 14:22:56,Post guid: http:\/\/localhost\/ws2017_day1\/?post_type=video_gallery_item&p=124,Post title: Auto Draft"
+1631521770_4272:"Warning: 127.0.0.1; Post deleted: (multiple entries): Post id: 139,Post author: 1,Post type: video_gallery_item,Post status: auto-draft,Post inserted: 2021-08-23 15:07:55,Post modified: 2021-08-23 15:07:55,Post guid: http:\/\/localhost\/ws2017_day1\/?post_type=video_gallery_item&p=139,Post title: Auto Draft"

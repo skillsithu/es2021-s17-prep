@@ -51,7 +51,7 @@
             <div id="brand">
                 <h1 class="site-title">
                     <a href="<?php echo esc_url( home_url( '/' ) ); // Link to the home page ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); // Title it with the blog name ?>" rel="home">
-                        <img src="http://localhost/es2018_day1_cms/wp-content/uploads/2021/09/Kurtosh_Kolach.png" alt="<?php bloginfo( 'name' ); // Display the blog name ?>" />
+                        <img src="http://192.168.1.76/es2018_day1_cms/wp-content/uploads/2021/09/Kurtosh_Kolach.png" alt="<?php bloginfo( 'name' ); // Display the blog name ?>" />
                     </a>
                 </h1>
             </div><!-- /brand -->
