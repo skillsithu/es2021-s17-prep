@@ -1,0 +1,211 @@
+@font-face {
+  font-family: "LiberationSans";
+  src: url("font/LiberationSans-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "NotoSans";
+  src: url("font/NotoSans-Regular.ttf") format("truetype");
+}
+
+:root {
+  --c-primary: brown;
+  --c-primary-dark: rgb(139,0,0);
+  --c-secondary: darkolivegreen;
+  --c-other: darkolivegreen;
+}
+
+.bg-c-primary {
+  background-color: var(--c-primary);
+}
+
+body {
+  margin: 0;
+  font-family: 'Noto Sans', 'NotoSans';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.section-dark-background {
+  background-color: #ddd !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.card {
+  transition: transform 0.3s ease-in-out;
+}
+.card:hover {
+  transform: scale(1.03);
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: var(--c-primary);
+  border-color: var(--c-primary);
+}
+.btn-primary:hover {
+  color: #fff;
+  background-color: var(--c-primary-dark);
+  border-color: var(--c-primary-dark);
+}
+.btn-primary:not(:disabled):not(.disabled):active {
+  background-color: var(--c-primary-dark);
+  border-color: var(--c-primary-dark);
+}
+.btn-primary.focus, .btn-primary:focus {
+  background-color: var(--c-primary-dark);
+  border-color: var(--c-primary-dark);
+  box-shadow: none;
+}
+.btn-primary:not(:disabled):not(.disabled):active:focus {
+  box-shadow: none;
+}
+
+.btn.nav-link, .btn.navbar-brand {
+  outline: none;
+  box-shadow: none;
+  border-radius: 0;
+  margin: 0 0.5rem;
+}
+.btn.nav-link {
+  color: var(--c-primary) !important;
+}
+.btn.nav-link:hover {
+  border-bottom: 2px solid var(--c-secondary);
+}
+
+.card-img-top {
+  height: 150px;
+  object-fit: cover;
+}
+.card-title {
+  font-size: 125%;
+  font-weight: bold;
+  color: var(--c-secondary);
+}
+.car-card {
+  background-color: white;
+  border: 1px solid lightgrey;
+  border-right: 15px solid var(--c-other);
+  
+}
+
+.vid-controls {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 20%;
+}
+.vid-controls-inside {
+  background-color: rgba(255,255,255,0.8);
+  visibility: hidden;
+}
+.vid-controls:hover .vid-controls-inside {
+  visibility: visible;
+}
+
+.slider {
+  height: 400px;
+  overflow: hidden;
+}
+.slide {
+  min-width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+}
+.prev {
+  left: 4%;
+}
+.prev::after {
+  content: '←';
+}
+.next {
+  right: 4%;
+}
+.next::after {
+  content: '→';
+}
+.pref::after, .next::after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.prev, .next {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 25%;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--c-primary);
+  background-color: white;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+  transition: all 0.3s ease-in-out;
+}
+.prev:hover, .next:hover {
+  color: white;
+  background-color: var(--c-primary-dark);
+}
+.slide .car-card {
+  width: 40%;
+  left: 45%;
+  top: 18%;
+}
+@media (max-width: 767.98px) {
+  .slide .car-card {
+    width: 70%;
+    left: 15%;
+    top: 12%;
+  }
+}
+.slider-dots {
+  position: absolute;
+  bottom: 4%;
+  left: 0;
+  width: 100%;
+}
+.slider-dot {
+  width: 12px;
+  height: 12px;
+}
+
+.section-spacing {
+  height: 90px;
+  margin-top: -90px;
+  visibility: hidden;
+}
+
+h1, h2 {
+  color: var(--c-primary);
+  margin-bottom: 1rem;
+}
+
+h3 {
+  text-transform: uppercase;
+  font-size: 1.2em;
+  font-weight: 500;
+  color: var(--c-secondary)
+}
+
+
+.offers-spacing {
+  min-height: 846px;
+}

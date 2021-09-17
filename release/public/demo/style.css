@@ -29,6 +29,11 @@ body {
 
 img {
     max-width: 100%;
+    border-radius: 20px;
+    transition: transform 0.25s ease-in-out;
+}
+img:hover {
+    transform: scale(1.05);
 }
 
 nav img {
@@ -51,6 +56,16 @@ nav img {
     display: flex;
     justify-content: center;
     align-items: center;
+    animation: appear 0.5s ease-in-out;
+}
+
+@keyframes appear {
+    from {
+        opacity: 0.5;
+    }
+    top {
+        opacity: 1;
+    }
 }
 
 h1 {
@@ -74,32 +89,32 @@ h3 {
     margin-bottom: 1rem;
 }
 
+h4 {
+    color: var(--k-red-dark);
+    font-size: 1.125rem;
+    margin-bottom: 1rem;
+}
+
 section {
     padding: 3rem 0;
 }
 
 section:nth-child(odd) {
-    background-color: #efefef;
+    background-color: #f2f2f2;
 }
 
 .intro-card {
     padding: 0;
-    margin: 0 1rem;
+    margin: 0 1rem 2rem 1rem;
     /* border: 1px solid var(--k-green); */
     border-bottom: 5px solid var(--k-red);
 }
-@media (max-width: 767.98px) {
-    .intro-card:not(:last-child) {
-        margin-bottom: 1rem;
-    }
-}
-
 .intro-card > div {
-    padding: 1rem 1.2rem 0 1.2rem;
+    padding: 1rem 1.25rem 0 1.25rem;
 }
 
 footer {
-    font-size: 0.875rem;
+    font-size: 0.75rem;
     background-color: var(--k-dark);
     color: white;
     padding: 2rem;
@@ -111,4 +126,147 @@ footer {
     height: 118px;
     margin-top: -118px;
     visibility: hidden;
+}
+
+figcaption {
+    font-size: 0.75rem;
+    margin-top: 0.25rem;
+    text-align: center;
+    font-style: italic;
+}
+
+.slider {
+    height: 460px;
+}
+.slider img {
+    object-fit: cover;
+    width: 100%;
+    max-height: 100%;
+}
+
+.recipe img {
+    margin-bottom: 1rem;
+}
+
+.content-row > div {
+    padding: 1rem 1.25rem;
+}
+.content-row > div:first-child {
+    border-right: 5px solid var(--k-red);
+}
+
+
+.social.facebook span {
+    color: #3d5998;
+}
+.social.facebook::before {
+    background-color: #3d5998;
+}
+.social.facebook:hover {
+    background-color: #3d5998;
+}
+
+.social.pinterest span {
+    color: #e50122;
+}
+.social.pinterest::before {
+    background-color: #e50122;
+}
+.social.pinterest:hover {
+    background-color: #e50122;
+}
+
+.social.twitter span {
+    color: #54acec;
+}
+.social.twitter::before {
+    background-color: #54acec;
+}
+.social.twitter:hover {
+    background-color: #54acec;
+}
+
+.social.tumblr span {
+    color: #314258;
+}
+.social.tumblr::before {
+    background-color: #314258;
+}
+.social.tumblr:hover {
+    background-color: #314258;
+}
+
+.social {
+    width: 80px;
+    height: 80px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.25rem;
+    position: relative;
+    overflow: hidden;
+    transition: color 1s linear;
+    background-color: white;
+    box-shadow: 1px 1px 10px rgba(0,0,0,0.1);
+
+    transition: 0s background-color;
+    transition-delay: 0.5s;
+}
+.social span {
+    position: relative;
+    z-index: 3;
+    transition: color 0.5s linear, transform 0.4s linear;
+}
+.social::before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    right: 100%;
+    width: 200%;
+    height: 200%;
+    transform: rotate(45deg);
+    transition: all 0.5s linear;
+}
+.social::after {
+    content: "";
+    position: absolute;
+    top: 40%;
+    right: 40%;
+    width: 20%;
+    height: 20%;
+    transform: scale(6);
+    border-radius: 50%;
+    z-index: 2;
+    transition: opacity 0.5s linear, transform 0.5s linear;
+
+    background-color: white;
+}
+.social:hover span {
+    color: white;
+    transform: scale(1.2);
+}
+.social:hover::after {
+    opacity: 0;
+    z-index: 1;
+    transform: scale(1);
+}
+.social:hover::before {
+    animation: slide-rotated 0.5s linear;
+    z-index: 2;
+}
+
+@keyframes slide-rotated {
+    from {
+        top: 100%;
+        right: 100%;
+    }
+    to {
+        top: -50%;
+        right: -50%;
+    }
+}
+
+.btn-secondary {
+    color: var(--k-dark);
 }
