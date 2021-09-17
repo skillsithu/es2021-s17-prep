@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "http://192.168.56.99/HU_JS-PHP_B/static/css/main.5ac656db.chunk.css",
+    "main.js": "http://192.168.56.99/HU_JS-PHP_B/static/js/main.ad550fac.chunk.js",
+    "main.js.map": "http://192.168.56.99/HU_JS-PHP_B/static/js/main.ad550fac.chunk.js.map",
+    "runtime-main.js": "http://192.168.56.99/HU_JS-PHP_B/static/js/runtime-main.97e1778c.js",
+    "runtime-main.js.map": "http://192.168.56.99/HU_JS-PHP_B/static/js/runtime-main.97e1778c.js.map",
+    "static/js/2.7b904634.chunk.js": "http://192.168.56.99/HU_JS-PHP_B/static/js/2.7b904634.chunk.js",
+    "static/js/2.7b904634.chunk.js.map": "http://192.168.56.99/HU_JS-PHP_B/static/js/2.7b904634.chunk.js.map",
+    "static/js/3.5f6d8ad6.chunk.js": "http://192.168.56.99/HU_JS-PHP_B/static/js/3.5f6d8ad6.chunk.js",
+    "static/js/3.5f6d8ad6.chunk.js.map": "http://192.168.56.99/HU_JS-PHP_B/static/js/3.5f6d8ad6.chunk.js.map",
+    "index.html": "http://192.168.56.99/HU_JS-PHP_B/index.html",
+    "static/css/main.5ac656db.chunk.css.map": "http://192.168.56.99/HU_JS-PHP_B/static/css/main.5ac656db.chunk.css.map",
+    "static/js/2.7b904634.chunk.js.LICENSE.txt": "http://192.168.56.99/HU_JS-PHP_B/static/js/2.7b904634.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.97e1778c.js",
+    "static/js/2.7b904634.chunk.js",
+    "static/css/main.5ac656db.chunk.css",
+    "static/js/main.ad550fac.chunk.js"
+  ]
+}
